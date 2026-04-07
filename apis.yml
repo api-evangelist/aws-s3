@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Storage
-  - Object Storage
-  - Cloud Storage
   - AWS
+  - Cloud Storage
+  - Object Storage
+  - Storage
 url: >-
   https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/apis.yml
 created: '2024-01-15'
@@ -23,10 +23,10 @@ apis:
     humanURL: https://aws.amazon.com/s3/
     baseURL: https://s3.amazonaws.com
     tags:
+      - Buckets
+      - Objects
       - REST
       - Storage
-      - Objects
-      - Buckets
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
