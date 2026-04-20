@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObjectLockConfiguration",
+  "type": "object",
+  "properties": {
+    "ObjectLockEnabled": {},
+    "Rule": {}
+  },
+  "description": "The container element for Object Lock configuration parameters."
+}

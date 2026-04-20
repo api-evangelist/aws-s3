@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObjectLockLegalHold",
+  "type": "object",
+  "properties": {
+    "Status": {}
+  },
+  "description": "A legal hold configuration for an object."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NotificationConfiguration",
+  "example": {
+    "TopicConfigurations": null,
+    "QueueConfigurations": null,
+    "LambdaFunctionConfigurations": null,
+    "EventBridgeConfiguration": null
+  }
+}

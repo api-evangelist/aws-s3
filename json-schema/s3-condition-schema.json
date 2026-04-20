@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Condition",
+  "type": "object",
+  "properties": {
+    "HttpErrorCodeReturnedEquals": {},
+    "KeyPrefixEquals": {}
+  },
+  "description": "A container for describing a condition that must be met for the specified redirect to apply. For example, 1. If request is for pages in the <code>/docs</code> folder, redirect to the <code>/documents</code> folder. 2. If request results in HTTP error 4xx, redirect request to another host where you might process the error."
+}

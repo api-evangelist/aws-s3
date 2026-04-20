@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "RecordsEvent",
+  "type": "object",
+  "description": "The container for the records event.",
+  "fields": [
+    {
+      "name": "Payload",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "MetricsAndOperator",
+  "type": "object",
+  "description": "A conjunction (logical AND) of predicates, which is used in evaluating a metrics filter. The operator must have at least two predicates, and an object must match all of the predicates in order for the filter to apply.",
+  "fields": [
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Tags",
+      "type": "string"
+    },
+    {
+      "name": "AccessPointArn",
+      "type": "string"
+    }
+  ]
+}

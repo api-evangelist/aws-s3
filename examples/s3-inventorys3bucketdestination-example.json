@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InventoryS3BucketDestination",
+  "example": {
+    "AccountId": null,
+    "Bucket": null,
+    "Format": null,
+    "Prefix": null,
+    "Encryption": null
+  }
+}

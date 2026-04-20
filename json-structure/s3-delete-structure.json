@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Delete",
+  "type": "object",
+  "description": "Container for the objects to delete.",
+  "fields": [
+    {
+      "name": "Objects",
+      "type": "string"
+    },
+    {
+      "name": "Quiet",
+      "type": "string"
+    }
+  ]
+}

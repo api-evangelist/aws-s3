@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CreateMultipartUploadRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Metadata",
+      "type": "string"
+    }
+  ]
+}

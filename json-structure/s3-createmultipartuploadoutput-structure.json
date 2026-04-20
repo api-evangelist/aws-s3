@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CreateMultipartUploadOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Bucket",
+      "type": "string"
+    },
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "UploadId",
+      "type": "string"
+    }
+  ]
+}

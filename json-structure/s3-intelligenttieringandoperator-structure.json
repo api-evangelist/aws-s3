@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "IntelligentTieringAndOperator",
+  "type": "object",
+  "description": "A container for specifying S3 Intelligent-Tiering filters. The filters determine the subset of objects to which the rule applies.",
+  "fields": [
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Tags",
+      "type": "string"
+    }
+  ]
+}

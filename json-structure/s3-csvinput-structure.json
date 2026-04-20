@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CSVInput",
+  "type": "object",
+  "description": "Describes how an uncompressed comma-separated values (CSV)-formatted input object is formatted.",
+  "fields": [
+    {
+      "name": "FileHeaderInfo",
+      "type": "string"
+    },
+    {
+      "name": "Comments",
+      "type": "string"
+    },
+    {
+      "name": "QuoteEscapeCharacter",
+      "type": "string"
+    },
+    {
+      "name": "RecordDelimiter",
+      "type": "string"
+    },
+    {
+      "name": "FieldDelimiter",
+      "type": "string"
+    },
+    {
+      "name": "QuoteCharacter",
+      "type": "string"
+    },
+    {
+      "name": "AllowQuotedRecordDelimiter",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "StatsEvent",
+  "type": "object",
+  "description": "Container for the Stats Event.",
+  "fields": [
+    {
+      "name": "Details",
+      "type": "string"
+    }
+  ]
+}

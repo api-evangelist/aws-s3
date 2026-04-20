@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ListPartsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Bucket",
+      "type": "string"
+    },
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "UploadId",
+      "type": "string"
+    },
+    {
+      "name": "PartNumberMarker",
+      "type": "string"
+    },
+    {
+      "name": "NextPartNumberMarker",
+      "type": "string"
+    },
+    {
+      "name": "MaxParts",
+      "type": "string"
+    },
+    {
+      "name": "IsTruncated",
+      "type": "string"
+    },
+    {
+      "name": "Parts",
+      "type": "string"
+    },
+    {
+      "name": "Initiator",
+      "type": "string"
+    },
+    {
+      "name": "Owner",
+      "type": "string"
+    },
+    {
+      "name": "StorageClass",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumAlgorithm",
+      "type": "string"
+    }
+  ]
+}

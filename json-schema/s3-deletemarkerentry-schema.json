@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeleteMarkerEntry",
+  "type": "object",
+  "properties": {
+    "Owner": {},
+    "Key": {},
+    "VersionId": {},
+    "IsLatest": {},
+    "LastModified": {}
+  },
+  "description": "Information about the delete marker."
+}

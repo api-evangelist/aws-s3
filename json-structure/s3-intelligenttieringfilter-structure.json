@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "IntelligentTieringFilter",
+  "type": "object",
+  "description": "The <code>Filter</code> is used to identify objects that the S3 Intelligent-Tiering configuration applies to.",
+  "fields": [
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Tag",
+      "type": "object",
+      "description": "A container of a key value name pair."
+    },
+    {
+      "name": "And",
+      "type": "string"
+    }
+  ]
+}

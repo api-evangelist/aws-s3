@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "PutBucketCorsRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "CORSConfiguration",
+      "type": "string"
+    }
+  ]
+}

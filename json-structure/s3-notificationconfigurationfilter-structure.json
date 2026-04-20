@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "NotificationConfigurationFilter",
+  "type": "object",
+  "description": "Specifies object key name filtering rules. For information about key name filtering, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html\">Configuring Event Notifications</a> in the <i>Amazon S3 User Guide</i>.",
+  "fields": [
+    {
+      "name": "Key",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntelligentTieringAndOperator",
+  "type": "object",
+  "properties": {
+    "Prefix": {},
+    "Tags": {}
+  },
+  "description": "A container for specifying S3 Intelligent-Tiering filters. The filters determine the subset of objects to which the rule applies."
+}

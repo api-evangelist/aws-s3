@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "RequestProgress",
+  "type": "object",
+  "description": "Container for specifying if periodic <code>QueryProgress</code> messages should be sent.",
+  "fields": [
+    {
+      "name": "Enabled",
+      "type": "string"
+    }
+  ]
+}

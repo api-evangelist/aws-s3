@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Parts",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "PartNumber": {},
+      "LastModified": {},
+      "ETag": {},
+      "Size": {},
+      "ChecksumCRC32": {},
+      "ChecksumCRC32C": {},
+      "ChecksumSHA1": {},
+      "ChecksumSHA256": {}
+    },
+    "description": "Container for elements related to a part."
+  }
+}

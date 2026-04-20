@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "DeleteObjectsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Deleted",
+      "type": "string"
+    },
+    {
+      "name": "Errors",
+      "type": "string"
+    }
+  ]
+}

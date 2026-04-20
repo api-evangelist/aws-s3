@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Destination",
+  "example": {
+    "Bucket": null,
+    "Account": null,
+    "StorageClass": null,
+    "AccessControlTranslation": null,
+    "EncryptionConfiguration": null,
+    "ReplicationTime": null
+  }
+}

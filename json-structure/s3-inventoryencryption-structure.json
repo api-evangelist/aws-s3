@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "InventoryEncryption",
+  "type": "object",
+  "description": "Contains the type of server-side encryption used to encrypt the inventory results.",
+  "fields": [
+    {
+      "name": "SSES3",
+      "type": "string"
+    },
+    {
+      "name": "SSEKMS",
+      "type": "string"
+    }
+  ]
+}

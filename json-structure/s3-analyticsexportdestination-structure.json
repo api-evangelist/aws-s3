@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "AnalyticsExportDestination",
+  "type": "object",
+  "description": "Where to publish the analytics results.",
+  "fields": [
+    {
+      "name": "S3BucketDestination",
+      "type": "string"
+    }
+  ]
+}

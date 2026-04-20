@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ListObjectsV2Output",
+  "type": "object",
+  "properties": {
+    "IsTruncated": {},
+    "Contents": {},
+    "Name": {},
+    "Prefix": {},
+    "Delimiter": {},
+    "MaxKeys": {},
+    "CommonPrefixes": {},
+    "EncodingType": {},
+    "KeyCount": {},
+    "ContinuationToken": {},
+    "NextContinuationToken": {},
+    "StartAfter": {}
+  }
+}

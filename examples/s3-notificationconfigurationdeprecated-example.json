@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NotificationConfigurationDeprecated",
+  "example": {
+    "TopicConfiguration": null,
+    "QueueConfiguration": null,
+    "CloudFunctionConfiguration": null
+  }
+}

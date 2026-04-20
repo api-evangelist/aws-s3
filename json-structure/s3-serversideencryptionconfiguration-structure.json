@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ServerSideEncryptionConfiguration",
+  "type": "object",
+  "description": "Specifies the default server-side-encryption configuration.",
+  "fields": [
+    {
+      "name": "Rules",
+      "type": "string"
+    }
+  ]
+}

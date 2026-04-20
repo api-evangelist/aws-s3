@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntelligentTieringConfigurationList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Id": {},
+      "Filter": {},
+      "Status": {},
+      "Tierings": {}
+    },
+    "required": [
+      "Id",
+      "Status",
+      "Tierings"
+    ],
+    "description": "<p>Specifies the S3 Intelligent-Tiering configuration for an Amazon S3 bucket.</p> <p>For information about the S3 Intelligent-Tiering storage class, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html#sc-dynamic-data-access\">Storage class for automatically optimizing frequently and infrequently accessed objects</a>.</p>"
+  }
+}

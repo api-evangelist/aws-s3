@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GetObjectAttributesParts",
+  "type": "object",
+  "description": "A collection of parts associated with a multipart upload.",
+  "fields": [
+    {
+      "name": "TotalPartsCount",
+      "type": "string"
+    },
+    {
+      "name": "PartNumberMarker",
+      "type": "string"
+    },
+    {
+      "name": "NextPartNumberMarker",
+      "type": "string"
+    },
+    {
+      "name": "MaxParts",
+      "type": "string"
+    },
+    {
+      "name": "IsTruncated",
+      "type": "string"
+    },
+    {
+      "name": "Parts",
+      "type": "string"
+    }
+  ]
+}

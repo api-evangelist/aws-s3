@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Error",
+  "type": "object",
+  "description": "Container for all error elements.",
+  "fields": [
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "VersionId",
+      "type": "string"
+    },
+    {
+      "name": "Code",
+      "type": "string"
+    },
+    {
+      "name": "Message",
+      "type": "string"
+    }
+  ]
+}

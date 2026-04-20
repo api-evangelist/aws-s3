@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeleteMarkerEntry",
+  "example": {
+    "Owner": null,
+    "Key": null,
+    "VersionId": null,
+    "IsLatest": null,
+    "LastModified": null
+  }
+}

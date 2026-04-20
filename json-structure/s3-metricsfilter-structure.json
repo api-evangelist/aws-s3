@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "MetricsFilter",
+  "type": "object",
+  "description": "Specifies a metrics configuration filter. The metrics configuration only includes objects that meet the filter's criteria. A filter must be a prefix, an object tag, an access point ARN, or a conjunction (MetricsAndOperator). For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutBucketMetricsConfiguration.html\">PutBucketMetricsConfiguration</a>.",
+  "fields": [
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Tag",
+      "type": "string"
+    },
+    {
+      "name": "AccessPointArn",
+      "type": "string"
+    },
+    {
+      "name": "And",
+      "type": "string"
+    }
+  ]
+}

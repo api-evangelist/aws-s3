@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSVInput",
+  "type": "object",
+  "properties": {
+    "FileHeaderInfo": {},
+    "Comments": {},
+    "QuoteEscapeCharacter": {},
+    "RecordDelimiter": {},
+    "FieldDelimiter": {},
+    "QuoteCharacter": {},
+    "AllowQuotedRecordDelimiter": {}
+  },
+  "description": "Describes how an uncompressed comma-separated values (CSV)-formatted input object is formatted."
+}

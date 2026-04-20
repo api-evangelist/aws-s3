@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "RestoreObjectRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "RestoreRequest",
+      "type": "object",
+      "description": "Container for restore job parameters."
+    }
+  ]
+}

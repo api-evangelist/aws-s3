@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VersioningConfiguration",
+  "type": "object",
+  "properties": {
+    "MFADelete": {},
+    "Status": {}
+  },
+  "description": "Describes the versioning state of an Amazon S3 bucket. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTVersioningStatus.html\">PUT Bucket versioning</a> in the <i>Amazon S3 API Reference</i>."
+}

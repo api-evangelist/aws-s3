@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "InventoryS3BucketDestination",
+  "type": "object",
+  "description": "Contains the bucket name, file format, bucket owner (optional), and prefix (optional) where inventory results are published.",
+  "fields": [
+    {
+      "name": "AccountId",
+      "type": "string"
+    },
+    {
+      "name": "Bucket",
+      "type": "string"
+    },
+    {
+      "name": "Format",
+      "type": "string"
+    },
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Encryption",
+      "type": "string"
+    }
+  ]
+}

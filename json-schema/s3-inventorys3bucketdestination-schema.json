@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InventoryS3BucketDestination",
+  "type": "object",
+  "properties": {
+    "AccountId": {},
+    "Bucket": {},
+    "Format": {},
+    "Prefix": {},
+    "Encryption": {}
+  },
+  "required": [
+    "Bucket",
+    "Format"
+  ],
+  "description": "Contains the bucket name, file format, bucket owner (optional), and prefix (optional) where inventory results are published."
+}

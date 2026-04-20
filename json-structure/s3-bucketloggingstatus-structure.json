@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "BucketLoggingStatus",
+  "type": "object",
+  "description": "Container for logging status information.",
+  "fields": [
+    {
+      "name": "LoggingEnabled",
+      "type": "object",
+      "description": "Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a bucket. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTlogging.html\">PUT Bucket logging</a> in the <i>Amazon S3 API Reference</i>."
+    }
+  ]
+}

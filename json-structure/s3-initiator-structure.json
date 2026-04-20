@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Initiator",
+  "type": "object",
+  "description": "Container element that identifies who initiated the multipart upload. ",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "DisplayName",
+      "type": "string"
+    }
+  ]
+}

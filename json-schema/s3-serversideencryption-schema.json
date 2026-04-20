@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ServerSideEncryption",
+  "type": "string",
+  "enum": [
+    "AES256",
+    "aws:kms"
+  ]
+}

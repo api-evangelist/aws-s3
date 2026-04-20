@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OutputLocation",
+  "type": "object",
+  "properties": {
+    "S3": {}
+  },
+  "description": "Describes the location where the restore job's output is stored."
+}

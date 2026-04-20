@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StorageClassAnalysis",
+  "type": "object",
+  "properties": {
+    "DataExport": {}
+  },
+  "description": "Specifies data related to access patterns to be collected and made available to analyze the tradeoffs between different storage classes for an Amazon S3 bucket."
+}

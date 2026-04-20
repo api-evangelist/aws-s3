@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Destination",
+  "type": "object",
+  "properties": {
+    "Bucket": {},
+    "Account": {},
+    "StorageClass": {},
+    "AccessControlTranslation": {},
+    "EncryptionConfiguration": {},
+    "ReplicationTime": {},
+    "Metrics": {}
+  },
+  "required": [
+    "Bucket"
+  ],
+  "description": "Specifies information about where to publish analysis or configuration results for an Amazon S3 bucket and S3 Replication Time Control (S3 RTC)."
+}

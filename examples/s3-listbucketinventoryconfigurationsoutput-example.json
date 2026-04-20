@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ListBucketInventoryConfigurationsOutput",
+  "example": {
+    "ContinuationToken": null,
+    "InventoryConfigurationList": null,
+    "IsTruncated": null,
+    "NextContinuationToken": null
+  }
+}

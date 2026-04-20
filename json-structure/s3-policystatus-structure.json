@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "PolicyStatus",
+  "type": "object",
+  "description": "The container element for a bucket's policy status.",
+  "fields": [
+    {
+      "name": "IsPublic",
+      "type": "string"
+    }
+  ]
+}

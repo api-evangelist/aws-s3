@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SelectObjectContentRequest",
+  "example": {
+    "Expression": null,
+    "ExpressionType": null,
+    "RequestProgress": null,
+    "InputSerialization": null,
+    "OutputSerialization": null,
+    "ScanRange": null
+  }
+}

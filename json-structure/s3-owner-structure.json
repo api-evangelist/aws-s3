@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Owner",
+  "type": "object",
+  "description": "Container for the owner's display name and ID.",
+  "fields": [
+    {
+      "name": "DisplayName",
+      "type": "string"
+    },
+    {
+      "name": "ID",
+      "type": "string"
+    }
+  ]
+}

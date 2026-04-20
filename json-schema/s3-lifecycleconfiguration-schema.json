@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LifecycleConfiguration",
+  "type": "object",
+  "properties": {
+    "Rules": {}
+  },
+  "required": [
+    "Rules"
+  ],
+  "description": "Container for lifecycle rules. You can add as many as 1000 rules."
+}

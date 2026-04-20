@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EncryptionConfiguration",
+  "type": "object",
+  "properties": {
+    "ReplicaKmsKeyID": {}
+  },
+  "description": "Specifies encryption-related information for an Amazon S3 bucket that is a destination for replicated objects."
+}

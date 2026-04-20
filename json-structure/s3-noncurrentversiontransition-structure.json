@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "NoncurrentVersionTransition",
+  "type": "object",
+  "description": "Container for the transition rule that describes when noncurrent objects transition to the <code>STANDARD_IA</code>, <code>ONEZONE_IA</code>, <code>INTELLIGENT_TIERING</code>, <code>GLACIER_IR</code>, <code>GLACIER</code>, or <code>DEEP_ARCHIVE</code> storage class. If your bucket is versioning-enabled (or versioning is suspended), you can set this action to request that Amazon S3 transition noncurrent object versions to the <code>STANDARD_IA</code>, <code>ONEZONE_IA</code>, <code>INTELLIGENT_TIERING</code>, <code>GLACIER_IR</code>, <code>GLACIER</code>, or <code>DEEP_ARCHIVE</code> storage class at a specific period in the object's lifetime.",
+  "fields": [
+    {
+      "name": "NoncurrentDays",
+      "type": "string"
+    },
+    {
+      "name": "StorageClass",
+      "type": "string"
+    },
+    {
+      "name": "NewerNoncurrentVersions",
+      "type": "string"
+    }
+  ]
+}

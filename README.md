@@ -1,53 +1,59 @@
-# Amazon S3 API (aws-s3)
-Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+# Amazon S3 API
 
-**URL:** [Visit APIs.json URL](https://aws.amazon.com/s3/)
-
-## Tags:
-
- - storage, object storage, cloud storage, AWS, file storage
-
-## Timestamps
-
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability, security, and performance for storing and retrieving any amount of data.
 
 ## APIs
 
 ### Amazon S3 REST API
-RESTful API for Amazon S3 object storage operations
+RESTful API for bucket management, object CRUD, access control, versioning, lifecycle policies, and multipart uploads.
+- **Documentation**: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
+- **OpenAPI**: [openapi/aws-s3-openapi.yaml](openapi/aws-s3-openapi.yaml) (97 operations)
+- **Authentication**: https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html
 
-**Human URL:** [https://aws.amazon.com/s3/](https://aws.amazon.com/s3/)
+## Artifacts
 
+| Directory | Contents |
+|---|---|
+| [openapi/](openapi/) | 1 OpenAPI specification (97 operations) |
+| [json-schema/](json-schema/) | 574 JSON Schema files |
+| [json-structure/](json-structure/) | 574 JSON Structure files |
+| [json-ld/](json-ld/) | 1 JSON-LD context file |
+| [examples/](examples/) | 574 example files |
+| [rules/](rules/) | Spectral ruleset |
+| [capabilities/](capabilities/) | Naftiko capability definitions |
+| [vocabulary/](vocabulary/) | Domain vocabulary |
 
-#### Tags:
+## Features
 
- - REST, storage, objects, buckets
+- **Scalable Object Storage** — Store and retrieve any amount of data at any time from anywhere.
+- **Versioning** — Keep multiple variants of an object in the same bucket.
+- **Lifecycle Policies** — Automatically transition or expire objects.
+- **Cross-Region Replication** — Automatically replicate objects across AWS Regions.
+- **Server-Side Encryption** — Encrypt objects at rest using SSE-S3, SSE-KMS, or SSE-C.
+- **Access Control** — Fine-grained access via bucket policies, ACLs, and IAM policies.
+- **Event Notifications** — Trigger Lambda, SQS, or SNS on bucket events.
+- **S3 Select** — Retrieve a subset of data using SQL expressions.
+- **Transfer Acceleration** — Speed up uploads using CloudFront edge locations.
+- **Intelligent-Tiering** — Automatically optimize storage costs based on access patterns.
 
-#### Properties
+## Use Cases
 
-- [Documentation](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html)
-- [OpenAPI](https://api.apis.guru/v2/specs/amazonaws.com/s3/2006-03-01/openapi.yaml)
-- [Authentication](https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html)
-- [Pricing](https://aws.amazon.com/s3/pricing/)
-- [Getting Started](https://aws.amazon.com/s3/getting-started/)
-- [SDKs](https://aws.amazon.com/tools/)
-- [Status](https://status.aws.amazon.com/)
-- [FAQ](https://aws.amazon.com/s3/faqs/)
-- [Service Level Agreement](https://aws.amazon.com/s3/sla/)
-- [Security](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security.html)
+- **Data Lake Storage** — Store raw data for analytics with Glue, Athena, and Redshift Spectrum.
+- **Static Website Hosting** — Host static websites and single-page applications.
+- **Backup and Archive** — Store backups with lifecycle policies to Glacier for long-term retention.
+- **Media Storage and Distribution** — Serve images, videos, and documents globally via CloudFront.
+- **Application Data Storage** — Store user-generated content, logs, and configuration files.
 
-## Common Properties
+## Links
 
-- [Blog](https://aws.amazon.com/blogs/storage/)
-- [Support](https://aws.amazon.com/premiumsupport/)
-- [Terms of Service](https://aws.amazon.com/service-terms/)
-- [Privacy Policy](https://aws.amazon.com/privacy/)
-- [Console](https://console.aws.amazon.com/s3/)
-- [CLI](https://aws.amazon.com/cli/)
+- **Website**: https://aws.amazon.com/s3/
+- **Getting Started**: https://aws.amazon.com/s3/getting-started/
+- **Pricing**: https://aws.amazon.com/s3/pricing/
+- **Console**: https://console.aws.amazon.com/s3/
+- **Blog**: https://aws.amazon.com/blogs/storage/
+- **Change Log**: https://aws.amazon.com/releasenotes/Amazon-S3/
+- **Status**: https://health.aws.amazon.com/health/status
 
 ## Maintainers
 
-**FN:** Amazon Web Services
-
-**Email:** ['email protected']
+- **Kin Lane** — kin@apievangelist.com

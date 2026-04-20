@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ServerSideEncryptionRule",
+  "type": "object",
+  "description": "Specifies the default server-side encryption configuration.",
+  "fields": [
+    {
+      "name": "ApplyServerSideEncryptionByDefault",
+      "type": "string"
+    },
+    {
+      "name": "BucketKeyEnabled",
+      "type": "string"
+    }
+  ]
+}

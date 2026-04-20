@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Grantee",
+  "type": "object",
+  "description": "Container for the person being granted permissions.",
+  "fields": [
+    {
+      "name": "DisplayName",
+      "type": "string"
+    },
+    {
+      "name": "EmailAddress",
+      "type": "string"
+    },
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "Type",
+      "type": "string"
+    },
+    {
+      "name": "URI",
+      "type": "string"
+    }
+  ]
+}

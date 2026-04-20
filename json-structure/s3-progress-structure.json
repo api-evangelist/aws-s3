@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Progress",
+  "type": "object",
+  "description": "This data type contains information about progress of an operation.",
+  "fields": [
+    {
+      "name": "BytesScanned",
+      "type": "string"
+    },
+    {
+      "name": "BytesProcessed",
+      "type": "string"
+    },
+    {
+      "name": "BytesReturned",
+      "type": "string"
+    }
+  ]
+}

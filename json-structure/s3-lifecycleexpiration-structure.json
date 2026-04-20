@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "LifecycleExpiration",
+  "type": "object",
+  "description": "Container for the expiration for the lifecycle of the object.",
+  "fields": [
+    {
+      "name": "Date",
+      "type": "string"
+    },
+    {
+      "name": "Days",
+      "type": "string"
+    },
+    {
+      "name": "ExpiredObjectDeleteMarker",
+      "type": "string"
+    }
+  ]
+}

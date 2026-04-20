@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CreateBucketConfiguration",
+  "type": "object",
+  "properties": {
+    "LocationConstraint": {}
+  },
+  "description": "The configuration information for the bucket."
+}

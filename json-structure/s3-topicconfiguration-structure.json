@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "TopicConfiguration",
+  "type": "object",
+  "description": "A container for specifying the configuration for publication of messages to an Amazon Simple Notification Service (Amazon SNS) topic when Amazon S3 detects specified events.",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "description": "An optional unique identifier for configurations in a notification configuration. If you don't provide one, Amazon S3 will assign an ID."
+    },
+    {
+      "name": "TopicArn",
+      "type": "string"
+    },
+    {
+      "name": "Events",
+      "type": "string"
+    },
+    {
+      "name": "Filter",
+      "type": "object",
+      "description": "Specifies object key name filtering rules. For information about key name filtering, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html\">Configuring Event Notifications</a> in the <i>Amazon S3 User Guide</i>."
+    }
+  ]
+}

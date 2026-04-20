@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LambdaFunctionConfigurationList",
+  "example": [
+    {
+      "Id": "example-s3-lambdafuncti",
+      "LambdaFunctionArn": null,
+      "Events": null,
+      "Filter": {
+        "Key": null
+      }
+    }
+  ]
+}

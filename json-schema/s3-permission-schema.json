@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Permission",
+  "type": "string",
+  "enum": [
+    "FULL_CONTROL",
+    "WRITE",
+    "WRITE_ACP",
+    "READ",
+    "READ_ACP"
+  ]
+}

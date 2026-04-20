@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InventoryDestination",
+  "type": "object",
+  "properties": {
+    "S3BucketDestination": {}
+  },
+  "required": [
+    "S3BucketDestination"
+  ],
+  "description": "Specifies the inventory configuration for an Amazon S3 bucket."
+}

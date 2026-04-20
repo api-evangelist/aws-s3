@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ListMultipartUploadsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Bucket",
+      "type": "string"
+    },
+    {
+      "name": "KeyMarker",
+      "type": "string"
+    },
+    {
+      "name": "UploadIdMarker",
+      "type": "string"
+    },
+    {
+      "name": "NextKeyMarker",
+      "type": "string"
+    },
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Delimiter",
+      "type": "string"
+    },
+    {
+      "name": "NextUploadIdMarker",
+      "type": "string"
+    },
+    {
+      "name": "MaxUploads",
+      "type": "string"
+    },
+    {
+      "name": "IsTruncated",
+      "type": "string"
+    },
+    {
+      "name": "Uploads",
+      "type": "string"
+    },
+    {
+      "name": "CommonPrefixes",
+      "type": "string"
+    },
+    {
+      "name": "EncodingType",
+      "type": "string"
+    }
+  ]
+}

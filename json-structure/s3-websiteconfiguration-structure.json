@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "WebsiteConfiguration",
+  "type": "object",
+  "description": "Specifies website configuration parameters for an Amazon S3 bucket.",
+  "fields": [
+    {
+      "name": "ErrorDocument",
+      "type": "string"
+    },
+    {
+      "name": "IndexDocument",
+      "type": "string"
+    },
+    {
+      "name": "RedirectAllRequestsTo",
+      "type": "string"
+    },
+    {
+      "name": "RoutingRules",
+      "type": "string"
+    }
+  ]
+}

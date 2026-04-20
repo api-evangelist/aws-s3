@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LifecycleRules",
+  "example": [
+    {
+      "Expiration": null,
+      "ID": null,
+      "Prefix": null,
+      "Filter": null,
+      "Status": null,
+      "Transitions": null
+    }
+  ]
+}

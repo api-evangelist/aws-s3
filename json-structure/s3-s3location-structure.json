@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "S3Location",
+  "type": "object",
+  "description": "Describes an Amazon S3 location that will receive the results of the restore request.",
+  "fields": [
+    {
+      "name": "BucketName",
+      "type": "string"
+    },
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Encryption",
+      "type": "object",
+      "description": "Contains the type of server-side encryption used."
+    },
+    {
+      "name": "CannedACL",
+      "type": "string"
+    },
+    {
+      "name": "AccessControlList",
+      "type": "string"
+    },
+    {
+      "name": "Tagging",
+      "type": "string"
+    },
+    {
+      "name": "UserMetadata",
+      "type": "string"
+    },
+    {
+      "name": "StorageClass",
+      "type": "string"
+    }
+  ]
+}

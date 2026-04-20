@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CreateBucketRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "CreateBucketConfiguration",
+      "type": "string"
+    }
+  ]
+}

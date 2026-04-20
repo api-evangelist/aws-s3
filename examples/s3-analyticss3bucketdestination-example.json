@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnalyticsS3BucketDestination",
+  "example": {
+    "Format": null,
+    "BucketAccountId": null,
+    "Bucket": null,
+    "Prefix": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "SelectObjectContentEventStream",
+  "type": "object",
+  "description": "The container for selecting objects from a content event stream.",
+  "fields": [
+    {
+      "name": "Records",
+      "type": "string"
+    },
+    {
+      "name": "Stats",
+      "type": "string"
+    },
+    {
+      "name": "Progress",
+      "type": "string"
+    },
+    {
+      "name": "Cont",
+      "type": "string"
+    },
+    {
+      "name": "End",
+      "type": "string"
+    }
+  ]
+}

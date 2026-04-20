@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SSEKMS",
+  "type": "object",
+  "properties": {
+    "KeyId": {}
+  },
+  "required": [
+    "KeyId"
+  ],
+  "description": "Specifies the use of SSE-KMS to encrypt delivered inventory reports."
+}

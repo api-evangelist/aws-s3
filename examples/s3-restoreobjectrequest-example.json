@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RestoreObjectRequest",
+  "example": {
+    "RestoreRequest": {
+      "Days": null,
+      "GlacierJobParameters": null,
+      "Type": null,
+      "Tier": null,
+      "Description": null,
+      "SelectParameters": null
+    }
+  }
+}

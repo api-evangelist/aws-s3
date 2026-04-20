@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "AnalyticsConfiguration",
+  "type": "object",
+  "description": "Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket.",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Filter",
+      "type": "string"
+    },
+    {
+      "name": "StorageClassAnalysis",
+      "type": "string"
+    }
+  ]
+}

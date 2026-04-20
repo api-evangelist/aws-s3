@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Checksum",
+  "type": "object",
+  "description": "Contains all the possible checksum or digest values for an object.",
+  "fields": [
+    {
+      "name": "ChecksumCRC32",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32C",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA1",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA256",
+      "type": "string"
+    }
+  ]
+}

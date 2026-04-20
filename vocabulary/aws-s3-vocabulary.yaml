@@ -1,0 +1,77 @@
+vocabulary:
+  title: Amazon S3 Vocabulary
+  description: Controlled vocabulary for Amazon S3 object storage concepts
+  created: "2026-04-19"
+  modified: "2026-04-19"
+  terms:
+    - term: Bucket
+      definition: A container for objects stored in Amazon S3. Every object is stored in a bucket.
+      tags:
+        - Core
+        - Storage
+    - term: Object
+      definition: The fundamental entity stored in Amazon S3, consisting of object data and metadata.
+      tags:
+        - Core
+        - Storage
+    - term: Key
+      definition: The unique identifier for an object within a bucket, analogous to a file path.
+      tags:
+        - Core
+    - term: Version
+      definition: A unique identifier for a specific variant of an object when versioning is enabled.
+      tags:
+        - Versioning
+    - term: ACL
+      definition: Access Control List — defines who can access objects and buckets and what actions they can perform.
+      tags:
+        - Security
+        - Access Control
+    - term: Presigned URL
+      definition: A time-limited URL granting temporary access to a private S3 object.
+      tags:
+        - Security
+        - Access Control
+    - term: Multipart Upload
+      definition: A feature for uploading large objects in parts for improved efficiency and reliability.
+      tags:
+        - Operations
+        - Performance
+    - term: Lifecycle Policy
+      definition: Rules that define actions S3 applies to objects, such as transitioning to cheaper storage or expiring.
+      tags:
+        - Management
+        - Cost
+    - term: Storage Class
+      definition: A classification of S3 storage determining cost, availability, and durability (Standard, Glacier, etc.).
+      tags:
+        - Storage
+        - Cost
+    - term: Replication
+      definition: Automatic copying of objects across S3 buckets within or across AWS Regions.
+      tags:
+        - Availability
+        - Data Management
+    - term: Event Notification
+      definition: Automatic triggers sent to other AWS services when specific bucket events occur.
+      tags:
+        - Integration
+    - term: Server-Side Encryption
+      definition: Encryption of objects at rest using keys managed by AWS or the customer.
+      tags:
+        - Security
+        - Encryption
+    - term: CORS
+      definition: Cross-Origin Resource Sharing configuration for browser-based access to S3 resources.
+      tags:
+        - Security
+        - Integration
+    - term: Transfer Acceleration
+      definition: A bucket-level feature using CloudFront edge locations to speed up uploads.
+      tags:
+        - Performance
+    - term: Intelligent-Tiering
+      definition: A storage class that automatically moves objects to lower-cost tiers when not accessed.
+      tags:
+        - Storage
+        - Cost

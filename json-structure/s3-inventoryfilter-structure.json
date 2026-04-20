@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "InventoryFilter",
+  "type": "object",
+  "description": "Specifies an inventory filter. The inventory only includes objects that meet the filter's criteria.",
+  "fields": [
+    {
+      "name": "Prefix",
+      "type": "string"
+    }
+  ]
+}

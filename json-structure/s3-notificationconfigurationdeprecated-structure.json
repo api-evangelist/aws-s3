@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "NotificationConfigurationDeprecated",
+  "type": "object",
+  "fields": [
+    {
+      "name": "TopicConfiguration",
+      "type": "string"
+    },
+    {
+      "name": "QueueConfiguration",
+      "type": "string"
+    },
+    {
+      "name": "CloudFunctionConfiguration",
+      "type": "string"
+    }
+  ]
+}

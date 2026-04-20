@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "OutputLocation",
+  "type": "object",
+  "description": "Describes the location where the restore job's output is stored.",
+  "fields": [
+    {
+      "name": "S3",
+      "type": "string"
+    }
+  ]
+}

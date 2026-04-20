@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MultipartUpload",
+  "example": {
+    "UploadId": null,
+    "Key": null,
+    "Initiated": null,
+    "StorageClass": null,
+    "Owner": null,
+    "Initiator": null
+  }
+}

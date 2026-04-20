@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CORSRule",
+  "type": "object",
+  "description": "Specifies a cross-origin access rule for an Amazon S3 bucket.",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "AllowedHeaders",
+      "type": "string"
+    },
+    {
+      "name": "AllowedMethods",
+      "type": "string"
+    },
+    {
+      "name": "AllowedOrigins",
+      "type": "string"
+    },
+    {
+      "name": "ExposeHeaders",
+      "type": "string"
+    },
+    {
+      "name": "MaxAgeSeconds",
+      "type": "string"
+    }
+  ]
+}

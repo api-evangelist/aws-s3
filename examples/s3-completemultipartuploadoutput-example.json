@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CompleteMultipartUploadOutput",
+  "example": {
+    "Location": null,
+    "Bucket": null,
+    "Key": null,
+    "ETag": null,
+    "ChecksumCRC32": null,
+    "ChecksumCRC32C": null
+  }
+}

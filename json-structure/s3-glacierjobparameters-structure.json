@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GlacierJobParameters",
+  "type": "object",
+  "description": "Container for S3 Glacier job parameters.",
+  "fields": [
+    {
+      "name": "Tier",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GetObjectAttributesOutput",
+  "example": {
+    "ETag": null,
+    "Checksum": null,
+    "ObjectParts": null,
+    "StorageClass": null,
+    "ObjectSize": null
+  }
+}

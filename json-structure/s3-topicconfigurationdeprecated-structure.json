@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "TopicConfigurationDeprecated",
+  "type": "object",
+  "description": "A container for specifying the configuration for publication of messages to an Amazon Simple Notification Service (Amazon SNS) topic when Amazon S3 detects specified events. This data type is deprecated. Use <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/API_TopicConfiguration.html\">TopicConfiguration</a> instead.",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "description": "An optional unique identifier for configurations in a notification configuration. If you don't provide one, Amazon S3 will assign an ID."
+    },
+    {
+      "name": "Events",
+      "type": "string"
+    },
+    {
+      "name": "Event",
+      "type": "string"
+    },
+    {
+      "name": "Topic",
+      "type": "string"
+    }
+  ]
+}

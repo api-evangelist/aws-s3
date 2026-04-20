@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObjectIdentifier",
+  "type": "object",
+  "properties": {
+    "Key": {},
+    "VersionId": {}
+  },
+  "required": [
+    "Key"
+  ],
+  "description": "Object Identifier is unique value to identify objects."
+}

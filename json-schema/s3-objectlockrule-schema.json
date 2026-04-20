@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObjectLockRule",
+  "type": "object",
+  "properties": {
+    "DefaultRetention": {}
+  },
+  "description": "The container element for an Object Lock rule."
+}

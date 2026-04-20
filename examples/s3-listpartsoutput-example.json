@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ListPartsOutput",
+  "example": {
+    "Bucket": null,
+    "Key": null,
+    "UploadId": null,
+    "PartNumberMarker": null,
+    "NextPartNumberMarker": null,
+    "MaxParts": null
+  }
+}

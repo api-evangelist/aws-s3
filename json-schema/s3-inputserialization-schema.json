@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InputSerialization",
+  "type": "object",
+  "properties": {
+    "CSV": {},
+    "CompressionType": {},
+    "JSON": {},
+    "Parquet": {}
+  },
+  "description": "Describes the serialization format of the object."
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "RestoreRequest",
+  "type": "object",
+  "description": "Container for restore job parameters.",
+  "fields": [
+    {
+      "name": "Days",
+      "type": "string"
+    },
+    {
+      "name": "GlacierJobParameters",
+      "type": "string"
+    },
+    {
+      "name": "Type",
+      "type": "string"
+    },
+    {
+      "name": "Tier",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "SelectParameters",
+      "type": "string"
+    },
+    {
+      "name": "OutputLocation",
+      "type": "string"
+    }
+  ]
+}

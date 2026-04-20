@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ReplicationTimeValue",
+  "type": "object",
+  "description": " A container specifying the time value for S3 Replication Time Control (S3 RTC) and replication metrics <code>EventThreshold</code>. ",
+  "fields": [
+    {
+      "name": "Minutes",
+      "type": "string"
+    }
+  ]
+}

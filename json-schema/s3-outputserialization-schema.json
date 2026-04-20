@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OutputSerialization",
+  "type": "object",
+  "properties": {
+    "CSV": {},
+    "JSON": {}
+  },
+  "description": "Describes how results of the Select job are serialized."
+}

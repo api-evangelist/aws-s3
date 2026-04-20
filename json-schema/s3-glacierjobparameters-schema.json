@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GlacierJobParameters",
+  "type": "object",
+  "properties": {
+    "Tier": {}
+  },
+  "required": [
+    "Tier"
+  ],
+  "description": "Container for S3 Glacier job parameters."
+}

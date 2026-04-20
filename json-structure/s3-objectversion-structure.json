@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ObjectVersion",
+  "type": "object",
+  "description": "The version of an object.",
+  "fields": [
+    {
+      "name": "ETag",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumAlgorithm",
+      "type": "string"
+    },
+    {
+      "name": "Size",
+      "type": "string"
+    },
+    {
+      "name": "StorageClass",
+      "type": "string"
+    },
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "VersionId",
+      "type": "string"
+    },
+    {
+      "name": "IsLatest",
+      "type": "string"
+    },
+    {
+      "name": "LastModified",
+      "type": "string"
+    },
+    {
+      "name": "Owner",
+      "type": "string"
+    }
+  ]
+}

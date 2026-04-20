@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "MetadataEntry",
+  "type": "object",
+  "description": "A metadata key-value pair to store with an object.",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Value",
+      "type": "string"
+    }
+  ]
+}

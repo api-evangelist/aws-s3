@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LifecycleRuleFilter",
+  "example": {
+    "Prefix": null,
+    "Tag": null,
+    "ObjectSizeGreaterThan": null,
+    "ObjectSizeLessThan": null,
+    "And": {
+      "Prefix": null,
+      "Tags": null,
+      "ObjectSizeGreaterThan": null,
+      "ObjectSizeLessThan": null
+    }
+  }
+}

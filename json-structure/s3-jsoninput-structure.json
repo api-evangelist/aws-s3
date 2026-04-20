@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "JSONInput",
+  "type": "object",
+  "description": "Specifies JSON as object's input serialization format.",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string"
+    }
+  ]
+}

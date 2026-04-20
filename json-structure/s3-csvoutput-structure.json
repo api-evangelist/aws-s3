@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CSVOutput",
+  "type": "object",
+  "description": "Describes how uncompressed comma-separated values (CSV)-formatted results are formatted.",
+  "fields": [
+    {
+      "name": "QuoteFields",
+      "type": "string"
+    },
+    {
+      "name": "QuoteEscapeCharacter",
+      "type": "string"
+    },
+    {
+      "name": "RecordDelimiter",
+      "type": "string"
+    },
+    {
+      "name": "FieldDelimiter",
+      "type": "string"
+    },
+    {
+      "name": "QuoteCharacter",
+      "type": "string"
+    }
+  ]
+}

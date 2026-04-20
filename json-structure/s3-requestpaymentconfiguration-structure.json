@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "RequestPaymentConfiguration",
+  "type": "object",
+  "description": "Container for Payer.",
+  "fields": [
+    {
+      "name": "Payer",
+      "type": "string"
+    }
+  ]
+}

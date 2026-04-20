@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QueueConfiguration",
+  "example": {
+    "Id": "example-s3-queueconfigu",
+    "QueueArn": null,
+    "Events": null,
+    "Filter": {
+      "Key": null
+    }
+  }
+}

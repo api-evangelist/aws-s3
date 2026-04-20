@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSVOutput",
+  "type": "object",
+  "properties": {
+    "QuoteFields": {},
+    "QuoteEscapeCharacter": {},
+    "RecordDelimiter": {},
+    "FieldDelimiter": {},
+    "QuoteCharacter": {}
+  },
+  "description": "Describes how uncompressed comma-separated values (CSV)-formatted results are formatted."
+}

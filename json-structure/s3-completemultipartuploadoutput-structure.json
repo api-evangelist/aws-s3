@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CompleteMultipartUploadOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Location",
+      "type": "string"
+    },
+    {
+      "name": "Bucket",
+      "type": "string"
+    },
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "ETag",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32C",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA1",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA256",
+      "type": "string"
+    }
+  ]
+}

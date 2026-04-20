@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReplicationTimeStatus",
+  "type": "string",
+  "enum": [
+    "Enabled",
+    "Disabled"
+  ]
+}

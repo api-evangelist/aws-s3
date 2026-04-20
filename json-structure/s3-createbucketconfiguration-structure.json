@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CreateBucketConfiguration",
+  "type": "object",
+  "description": "The configuration information for the bucket.",
+  "fields": [
+    {
+      "name": "LocationConstraint",
+      "type": "string"
+    }
+  ]
+}

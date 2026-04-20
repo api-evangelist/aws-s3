@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InventoryFilter",
+  "type": "object",
+  "properties": {
+    "Prefix": {}
+  },
+  "required": [
+    "Prefix"
+  ],
+  "description": "Specifies an inventory filter. The inventory only includes objects that meet the filter's criteria."
+}

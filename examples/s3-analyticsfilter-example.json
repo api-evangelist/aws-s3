@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnalyticsFilter",
+  "example": {
+    "Prefix": null,
+    "Tag": null,
+    "And": null
+  }
+}

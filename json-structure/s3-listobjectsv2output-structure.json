@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ListObjectsV2Output",
+  "type": "object",
+  "fields": [
+    {
+      "name": "IsTruncated",
+      "type": "string"
+    },
+    {
+      "name": "Contents",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Delimiter",
+      "type": "string"
+    },
+    {
+      "name": "MaxKeys",
+      "type": "string"
+    },
+    {
+      "name": "CommonPrefixes",
+      "type": "string"
+    },
+    {
+      "name": "EncodingType",
+      "type": "string"
+    },
+    {
+      "name": "KeyCount",
+      "type": "string"
+    },
+    {
+      "name": "ContinuationToken",
+      "type": "string"
+    },
+    {
+      "name": "NextContinuationToken",
+      "type": "string"
+    },
+    {
+      "name": "StartAfter",
+      "type": "string"
+    }
+  ]
+}

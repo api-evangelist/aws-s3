@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RestoreObjectRequest",
+  "type": "object",
+  "properties": {
+    "RestoreRequest": {
+      "type": "object",
+      "properties": {
+        "Days": {},
+        "GlacierJobParameters": {},
+        "Type": {},
+        "Tier": {},
+        "Description": {},
+        "SelectParameters": {},
+        "OutputLocation": {}
+      },
+      "description": "Container for restore job parameters."
+    }
+  }
+}

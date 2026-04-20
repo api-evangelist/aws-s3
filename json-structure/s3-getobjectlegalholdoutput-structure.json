@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GetObjectLegalHoldOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "LegalHold",
+      "type": "string"
+    }
+  ]
+}

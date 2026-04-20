@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SSES3",
+  "type": "object",
+  "properties": {},
+  "description": "Specifies the use of SSE-S3 to encrypt delivered inventory reports."
+}

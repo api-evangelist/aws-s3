@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TopicConfigurationList",
+  "example": [
+    {
+      "Id": "example-s3-topicconfigu",
+      "TopicArn": null,
+      "Events": null,
+      "Filter": {
+        "Key": null
+      }
+    }
+  ]
+}

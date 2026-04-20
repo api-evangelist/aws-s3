@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MultipartUpload",
+  "type": "object",
+  "properties": {
+    "UploadId": {},
+    "Key": {},
+    "Initiated": {},
+    "StorageClass": {},
+    "Owner": {},
+    "Initiator": {},
+    "ChecksumAlgorithm": {}
+  },
+  "description": "Container for the <code>MultipartUpload</code> for the Amazon S3 object."
+}

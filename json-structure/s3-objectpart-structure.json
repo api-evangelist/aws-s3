@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ObjectPart",
+  "type": "object",
+  "description": "A container for elements related to an individual part.",
+  "fields": [
+    {
+      "name": "PartNumber",
+      "type": "string"
+    },
+    {
+      "name": "Size",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32C",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA1",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA256",
+      "type": "string"
+    }
+  ]
+}

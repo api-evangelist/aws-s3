@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "SSES3",
+  "type": "object",
+  "description": "Specifies the use of SSE-S3 to encrypt delivered inventory reports."
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "PutBucketVersioningRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "VersioningConfiguration",
+      "type": "string"
+    }
+  ]
+}

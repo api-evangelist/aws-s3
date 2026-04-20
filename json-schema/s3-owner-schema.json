@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Owner",
+  "type": "object",
+  "properties": {
+    "DisplayName": {},
+    "ID": {}
+  },
+  "description": "Container for the owner's display name and ID."
+}

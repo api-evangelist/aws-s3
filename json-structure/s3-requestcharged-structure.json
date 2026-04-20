@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "RequestCharged",
+  "type": "string",
+  "description": "If present, indicates that the requester was successfully charged for the request."
+}

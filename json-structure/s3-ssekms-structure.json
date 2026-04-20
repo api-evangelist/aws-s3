@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "SSEKMS",
+  "type": "object",
+  "description": "Specifies the use of SSE-KMS to encrypt delivered inventory reports.",
+  "fields": [
+    {
+      "name": "KeyId",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "FilterRule",
+  "type": "object",
+  "description": "Specifies the Amazon S3 object key name to filter on and whether to filter on the suffix or prefix of the key name.",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Value",
+      "type": "string"
+    }
+  ]
+}

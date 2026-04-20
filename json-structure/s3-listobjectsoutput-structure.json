@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ListObjectsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "IsTruncated",
+      "type": "string"
+    },
+    {
+      "name": "Marker",
+      "type": "string"
+    },
+    {
+      "name": "NextMarker",
+      "type": "string"
+    },
+    {
+      "name": "Contents",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Delimiter",
+      "type": "string"
+    },
+    {
+      "name": "MaxKeys",
+      "type": "string"
+    },
+    {
+      "name": "CommonPrefixes",
+      "type": "string"
+    },
+    {
+      "name": "EncodingType",
+      "type": "string"
+    }
+  ]
+}

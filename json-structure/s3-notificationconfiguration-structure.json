@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "NotificationConfiguration",
+  "type": "object",
+  "description": "A container for specifying the notification configuration of the bucket. If this element is empty, notifications are turned off for the bucket.",
+  "fields": [
+    {
+      "name": "TopicConfigurations",
+      "type": "string"
+    },
+    {
+      "name": "QueueConfigurations",
+      "type": "string"
+    },
+    {
+      "name": "LambdaFunctionConfigurations",
+      "type": "string"
+    },
+    {
+      "name": "EventBridgeConfiguration",
+      "type": "string"
+    }
+  ]
+}

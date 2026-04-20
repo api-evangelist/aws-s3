@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Tag",
+  "type": "object",
+  "description": "A container of a key value name pair.",
+  "fields": [
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "Value",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rules",
+  "example": [
+    {
+      "Expiration": null,
+      "ID": null,
+      "Prefix": null,
+      "Status": null,
+      "Transition": null,
+      "NoncurrentVersionTransition": {
+        "NoncurrentDays": null,
+        "StorageClass": null,
+        "NewerNoncurrentVersions": null
+      }
+    }
+  ]
+}

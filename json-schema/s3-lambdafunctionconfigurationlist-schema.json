@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LambdaFunctionConfigurationList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Id": {
+        "type": "string",
+        "description": "An optional unique identifier for configurations in a notification configuration. If you don't provide one, Amazon S3 will assign an ID."
+      },
+      "LambdaFunctionArn": {},
+      "Events": {},
+      "Filter": {
+        "type": "object",
+        "properties": {
+          "Key": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/S3KeyFilter"
+              },
+              {
+                "xml": {
+                  "name": "S3Key"
+                }
+              }
+            ]
+          }
+        },
+        "description": "Specifies object key name filtering rules. For information about key name filtering, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html\">Configuring Event Notifications</a> in the <i>Amazon S3 User Guide</i>."
+      }
+    },
+    "required": [
+      "LambdaFunctionArn",
+      "Events"
+    ],
+    "description": "A container for specifying the configuration for Lambda notifications."
+  }
+}

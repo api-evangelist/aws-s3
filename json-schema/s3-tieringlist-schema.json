@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TieringList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Days": {},
+      "AccessTier": {}
+    },
+    "required": [
+      "Days",
+      "AccessTier"
+    ],
+    "description": "The S3 Intelligent-Tiering storage class is designed to optimize storage costs by automatically moving data to the most cost-effective storage access tier, without additional operational overhead."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "FilterRuleList",
+  "type": "array",
+  "description": "A list of containers for the key-value pair that defines the criteria for the filter rule."
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RequestPaymentConfiguration",
+  "type": "object",
+  "properties": {
+    "Payer": {}
+  },
+  "required": [
+    "Payer"
+  ],
+  "description": "Container for Payer."
+}

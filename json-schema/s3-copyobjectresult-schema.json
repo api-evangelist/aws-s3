@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CopyObjectResult",
+  "type": "object",
+  "properties": {
+    "ETag": {},
+    "LastModified": {},
+    "ChecksumCRC32": {},
+    "ChecksumCRC32C": {},
+    "ChecksumSHA1": {},
+    "ChecksumSHA256": {}
+  },
+  "description": "Container for all response elements."
+}

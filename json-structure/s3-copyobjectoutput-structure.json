@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CopyObjectOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "CopyObjectResult",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CloudFunctionConfiguration",
+  "example": {
+    "Id": "example-s3-cloudfunctio",
+    "Event": null,
+    "Events": null,
+    "CloudFunction": null,
+    "InvocationRole": null
+  }
+}

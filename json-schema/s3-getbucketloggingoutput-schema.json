@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GetBucketLoggingOutput",
+  "type": "object",
+  "properties": {
+    "LoggingEnabled": {
+      "type": "object",
+      "properties": {
+        "TargetBucket": {},
+        "TargetGrants": {},
+        "TargetPrefix": {}
+      },
+      "required": [
+        "TargetBucket",
+        "TargetPrefix"
+      ],
+      "description": "Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a bucket. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTlogging.html\">PUT Bucket logging</a> in the <i>Amazon S3 API Reference</i>."
+    }
+  }
+}

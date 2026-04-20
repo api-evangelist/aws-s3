@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "OwnershipControls",
+  "type": "object",
+  "description": "The container element for a bucket's ownership controls.",
+  "fields": [
+    {
+      "name": "Rules",
+      "type": "string"
+    }
+  ]
+}

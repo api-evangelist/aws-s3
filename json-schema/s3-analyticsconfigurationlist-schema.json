@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnalyticsConfigurationList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Id": {},
+      "Filter": {},
+      "StorageClassAnalysis": {}
+    },
+    "required": [
+      "Id",
+      "StorageClassAnalysis"
+    ],
+    "description": "Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket."
+  }
+}

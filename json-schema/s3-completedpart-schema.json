@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CompletedPart",
+  "type": "object",
+  "properties": {
+    "ETag": {},
+    "ChecksumCRC32": {},
+    "ChecksumCRC32C": {},
+    "ChecksumSHA1": {},
+    "ChecksumSHA256": {},
+    "PartNumber": {}
+  },
+  "description": "Details of the parts that were uploaded."
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GetObjectAttributesParts",
+  "type": "object",
+  "properties": {
+    "TotalPartsCount": {},
+    "PartNumberMarker": {},
+    "NextPartNumberMarker": {},
+    "MaxParts": {},
+    "IsTruncated": {},
+    "Parts": {}
+  },
+  "description": "A collection of parts associated with a multipart upload."
+}

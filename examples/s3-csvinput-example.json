@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSVInput",
+  "example": {
+    "FileHeaderInfo": null,
+    "Comments": null,
+    "QuoteEscapeCharacter": null,
+    "RecordDelimiter": null,
+    "FieldDelimiter": null,
+    "QuoteCharacter": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Object",
+  "type": "object",
+  "description": "An object consists of data and its descriptive metadata.",
+  "fields": [
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "LastModified",
+      "type": "string"
+    },
+    {
+      "name": "ETag",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumAlgorithm",
+      "type": "string"
+    },
+    {
+      "name": "Size",
+      "type": "string"
+    },
+    {
+      "name": "StorageClass",
+      "type": "string"
+    },
+    {
+      "name": "Owner",
+      "type": "string"
+    }
+  ]
+}

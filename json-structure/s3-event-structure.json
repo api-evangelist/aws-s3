@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Event",
+  "type": "string",
+  "description": "The bucket event for which to send notifications."
+}

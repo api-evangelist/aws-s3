@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "S3Location",
+  "example": {
+    "BucketName": null,
+    "Prefix": null,
+    "Encryption": {
+      "EncryptionType": null,
+      "KMSKeyId": null,
+      "KMSContext": null
+    },
+    "CannedACL": null,
+    "AccessControlList": null,
+    "Tagging": null
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TargetGrant",
+  "type": "object",
+  "properties": {
+    "Grantee": {},
+    "Permission": {}
+  },
+  "description": "<p>Container for granting information.</p> <p>Buckets that use the bucket owner enforced setting for Object Ownership don't support target grants. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/enable-server-access-logging.html#grant-log-delivery-permissions-general\">Permissions server access log delivery</a> in the <i>Amazon S3 User Guide</i>.</p>"
+}

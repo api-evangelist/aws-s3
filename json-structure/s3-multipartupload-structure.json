@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "MultipartUpload",
+  "type": "object",
+  "description": "Container for the <code>MultipartUpload</code> for the Amazon S3 object.",
+  "fields": [
+    {
+      "name": "UploadId",
+      "type": "string"
+    },
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "Initiated",
+      "type": "string"
+    },
+    {
+      "name": "StorageClass",
+      "type": "string"
+    },
+    {
+      "name": "Owner",
+      "type": "string"
+    },
+    {
+      "name": "Initiator",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumAlgorithm",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ObjectIdentifier",
+  "type": "object",
+  "description": "Object Identifier is unique value to identify objects.",
+  "fields": [
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "VersionId",
+      "type": "string"
+    }
+  ]
+}

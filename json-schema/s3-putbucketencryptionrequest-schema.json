@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PutBucketEncryptionRequest",
+  "type": "object",
+  "properties": {
+    "ServerSideEncryptionConfiguration": {
+      "type": "object",
+      "properties": {
+        "Rules": {}
+      },
+      "required": [
+        "Rules"
+      ],
+      "description": "Specifies the default server-side-encryption configuration."
+    }
+  },
+  "required": [
+    "ServerSideEncryptionConfiguration"
+  ]
+}

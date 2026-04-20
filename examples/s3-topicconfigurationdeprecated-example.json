@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TopicConfigurationDeprecated",
+  "example": {
+    "Id": "example-s3-topicconfigu",
+    "Events": null,
+    "Event": null,
+    "Topic": null
+  }
+}

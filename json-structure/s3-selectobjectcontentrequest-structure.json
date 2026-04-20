@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "SelectObjectContentRequest",
+  "type": "object",
+  "description": "Request to filter the contents of an Amazon S3 object based on a simple Structured Query Language (SQL) statement. In the request, along with the SQL expression, you must specify a data serialization format (JSON or CSV) of the object. Amazon S3 uses this to parse object data into records. It returns only records that match the specified SQL expression. You must also specify the data serialization format for the response. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectSELECTContent.html\">S3Select API Documentation</a>.",
+  "fields": [
+    {
+      "name": "Expression",
+      "type": "string"
+    },
+    {
+      "name": "ExpressionType",
+      "type": "string"
+    },
+    {
+      "name": "RequestProgress",
+      "type": "string"
+    },
+    {
+      "name": "InputSerialization",
+      "type": "string"
+    },
+    {
+      "name": "OutputSerialization",
+      "type": "string"
+    },
+    {
+      "name": "ScanRange",
+      "type": "string"
+    }
+  ]
+}

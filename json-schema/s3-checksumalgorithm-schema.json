@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChecksumAlgorithm",
+  "type": "string",
+  "enum": [
+    "CRC32",
+    "CRC32C",
+    "SHA1",
+    "SHA256"
+  ]
+}

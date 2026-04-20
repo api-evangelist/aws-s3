@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ListBucketsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Buckets",
+      "type": "string"
+    },
+    {
+      "name": "Owner",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Checksum",
+  "type": "object",
+  "properties": {
+    "ChecksumCRC32": {},
+    "ChecksumCRC32C": {},
+    "ChecksumSHA1": {},
+    "ChecksumSHA256": {}
+  },
+  "description": "Contains all the possible checksum or digest values for an object."
+}

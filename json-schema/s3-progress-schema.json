@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Progress",
+  "type": "object",
+  "properties": {
+    "BytesScanned": {},
+    "BytesProcessed": {},
+    "BytesReturned": {}
+  },
+  "description": "This data type contains information about progress of an operation."
+}

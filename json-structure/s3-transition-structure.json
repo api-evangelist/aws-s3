@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Transition",
+  "type": "object",
+  "description": "Specifies when an object transitions to a specified storage class. For more information about Amazon S3 lifecycle configuration rules, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-transition-general-considerations.html\">Transitioning Objects Using Amazon S3 Lifecycle</a> in the <i>Amazon S3 User Guide</i>.",
+  "fields": [
+    {
+      "name": "Date",
+      "type": "string"
+    },
+    {
+      "name": "Days",
+      "type": "string"
+    },
+    {
+      "name": "StorageClass",
+      "type": "string"
+    }
+  ]
+}

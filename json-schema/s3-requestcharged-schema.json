@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RequestCharged",
+  "type": "string",
+  "enum": [
+    "requester"
+  ],
+  "description": "If present, indicates that the requester was successfully charged for the request."
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ServerSideEncryptionConfiguration",
+  "type": "object",
+  "properties": {
+    "Rules": {}
+  },
+  "required": [
+    "Rules"
+  ],
+  "description": "Specifies the default server-side-encryption configuration."
+}

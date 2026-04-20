@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rule",
+  "type": "object",
+  "properties": {
+    "Expiration": {},
+    "ID": {},
+    "Prefix": {},
+    "Status": {},
+    "Transition": {},
+    "NoncurrentVersionTransition": {
+      "type": "object",
+      "properties": {
+        "NoncurrentDays": {},
+        "StorageClass": {},
+        "NewerNoncurrentVersions": {}
+      },
+      "description": "Container for the transition rule that describes when noncurrent objects transition to the <code>STANDARD_IA</code>, <code>ONEZONE_IA</code>, <code>INTELLIGENT_TIERING</code>, <code>GLACIER_IR</code>, <code>GLACIER</code>, or <code>DEEP_ARCHIVE</code> storage class. If your bucket is versioning-enabled (or versioning is suspended), you can set this action to request that Amazon S3 transition noncurrent object versions to the <code>STANDARD_IA</code>, <code>ONEZONE_IA</code>, <code>INTELLIGENT_TIERING</code>, <code>GLACIER_IR</code>, <code>GLACIER</code>, or <code>DEEP_ARCHIVE</code> storage class at a specific period in the object's lifetime."
+    },
+    "NoncurrentVersionExpiration": {
+      "type": "object",
+      "properties": {
+        "NoncurrentDays": {},
+        "NewerNoncurrentVersions": {}
+      },
+      "description": "Specifies when noncurrent object versions expire. Upon expiration, Amazon S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that Amazon S3 delete noncurrent object versions at a specific period in the object's lifetime."
+    },
+    "AbortIncompleteMultipartUpload": {
+      "type": "object",
+      "properties": {
+        "DaysAfterInitiation": {}
+      },
+      "description": "Specifies the days since the initiation of an incomplete multipart upload that Amazon S3 will wait before permanently removing all parts of the upload. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/mpuoverview.html#mpu-abort-incomplete-mpu-lifecycle-config\"> Aborting Incomplete Multipart Uploads Using a Bucket Lifecycle Policy</a> in the <i>Amazon S3 User Guide</i>."
+    }
+  },
+  "required": [
+    "Prefix",
+    "Status"
+  ],
+  "description": "Specifies lifecycle rules for an Amazon S3 bucket. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTlifecycle.html\">Put Bucket Lifecycle Configuration</a> in the <i>Amazon S3 API Reference</i>. For examples, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutBucketLifecycleConfiguration.html#API_PutBucketLifecycleConfiguration_Examples\">Put Bucket Lifecycle Configuration Examples</a>."
+}

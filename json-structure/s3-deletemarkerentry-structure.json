@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "DeleteMarkerEntry",
+  "type": "object",
+  "description": "Information about the delete marker.",
+  "fields": [
+    {
+      "name": "Owner",
+      "type": "string"
+    },
+    {
+      "name": "Key",
+      "type": "string"
+    },
+    {
+      "name": "VersionId",
+      "type": "string"
+    },
+    {
+      "name": "IsLatest",
+      "type": "string"
+    },
+    {
+      "name": "LastModified",
+      "type": "string"
+    }
+  ]
+}

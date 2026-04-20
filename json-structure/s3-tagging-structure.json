@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Tagging",
+  "type": "object",
+  "description": "Container for <code>TagSet</code> elements.",
+  "fields": [
+    {
+      "name": "TagSet",
+      "type": "string"
+    }
+  ]
+}

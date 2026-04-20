@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "InventoryDestination",
+  "type": "object",
+  "description": "Specifies the inventory configuration for an Amazon S3 bucket.",
+  "fields": [
+    {
+      "name": "S3BucketDestination",
+      "type": "string"
+    }
+  ]
+}

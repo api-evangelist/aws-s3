@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LifecycleRuleAndOperator",
+  "example": {
+    "Prefix": null,
+    "Tags": null,
+    "ObjectSizeGreaterThan": null,
+    "ObjectSizeLessThan": null
+  }
+}

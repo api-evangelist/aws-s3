@@ -1,0 +1,73 @@
+rules:
+  s3-operation-summary:
+    description: All operations must have a summary starting with "Amazon S3"
+    severity: warn
+    given: "$.paths[*][get,post,put,delete,patch,head]"
+    then:
+      field: summary
+      function: pattern
+      functionOptions:
+        match: "^Amazon S3"
+  s3-operation-id:
+    description: All operations must have an operationId
+    severity: error
+    given: "$.paths[*][get,post,put,delete,patch,head]"
+    then:
+      field: operationId
+      function: truthy
+  s3-info-title:
+    description: Info object must have a title
+    severity: error
+    given: "$.info"
+    then:
+      field: title
+      function: truthy
+  s3-info-version:
+    description: Info object must have a version
+    severity: error
+    given: "$.info"
+    then:
+      field: version
+      function: truthy
+  s3-response-description:
+    description: All responses must have a description
+    severity: error
+    given: "$.paths[*][*].responses[*]"
+    then:
+      field: description
+      function: truthy
+  s3-parameter-description:
+    description: All parameters should have a description
+    severity: warn
+    given: "$.paths[*][*].parameters[*]"
+    then:
+      field: description
+      function: truthy
+  s3-microcks-annotation:
+    description: Operations should have x-microcks-operation annotation
+    severity: info
+    given: "$.paths[*][get,post,put,delete,patch,head]"
+    then:
+      field: x-microcks-operation
+      function: truthy
+  s3-schema-type:
+    description: Schema components should have a type
+    severity: warn
+    given: "$.components.schemas[*]"
+    then:
+      field: type
+      function: truthy
+  s3-security-defined:
+    description: API security schemes should be defined
+    severity: warn
+    given: "$"
+    then:
+      field: components.securitySchemes
+      function: truthy
+  s3-servers-defined:
+    description: Servers array should be defined
+    severity: warn
+    given: "$"
+    then:
+      field: servers
+      function: truthy

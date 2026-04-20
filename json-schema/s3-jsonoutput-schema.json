@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JSONOutput",
+  "type": "object",
+  "properties": {
+    "RecordDelimiter": {}
+  },
+  "description": "Specifies JSON as request's output serialization format."
+}

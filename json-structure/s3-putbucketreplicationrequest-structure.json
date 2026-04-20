@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "PutBucketReplicationRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "ReplicationConfiguration",
+      "type": "object",
+      "description": "A container for replication rules. You can add up to 1,000 rules. The maximum size of a replication configuration is 2 MB."
+    }
+  ]
+}

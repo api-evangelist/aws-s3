@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ObjectLockRule",
+  "type": "object",
+  "description": "The container element for an Object Lock rule.",
+  "fields": [
+    {
+      "name": "DefaultRetention",
+      "type": "string"
+    }
+  ]
+}

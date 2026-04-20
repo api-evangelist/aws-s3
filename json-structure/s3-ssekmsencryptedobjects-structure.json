@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "SseKmsEncryptedObjects",
+  "type": "object",
+  "description": "A container for filter information for the selection of S3 objects encrypted with Amazon Web Services KMS.",
+  "fields": [
+    {
+      "name": "Status",
+      "type": "string"
+    }
+  ]
+}

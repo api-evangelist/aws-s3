@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObjectVersionList",
+  "example": [
+    {
+      "ETag": null,
+      "ChecksumAlgorithm": null,
+      "Size": null,
+      "StorageClass": null,
+      "Key": null,
+      "VersionId": null
+    }
+  ]
+}

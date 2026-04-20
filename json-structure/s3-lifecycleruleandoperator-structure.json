@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "LifecycleRuleAndOperator",
+  "type": "object",
+  "description": "This is used in a Lifecycle Rule Filter to apply a logical AND to two or more predicates. The Lifecycle Rule will apply to any object matching all of the predicates configured inside the And operator.",
+  "fields": [
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Tags",
+      "type": "string"
+    },
+    {
+      "name": "ObjectSizeGreaterThan",
+      "type": "string"
+    },
+    {
+      "name": "ObjectSizeLessThan",
+      "type": "string"
+    }
+  ]
+}

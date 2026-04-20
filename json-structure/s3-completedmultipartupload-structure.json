@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CompletedMultipartUpload",
+  "type": "object",
+  "description": "The container for the completed multipart upload details.",
+  "fields": [
+    {
+      "name": "Parts",
+      "type": "string"
+    }
+  ]
+}

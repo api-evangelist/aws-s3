@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "WriteGetObjectResponseRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Body",
+      "type": "string"
+    },
+    {
+      "name": "Metadata",
+      "type": "string"
+    }
+  ]
+}

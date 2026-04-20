@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Initiator",
+  "type": "object",
+  "properties": {
+    "ID": {},
+    "DisplayName": {}
+  },
+  "description": "Container element that identifies who initiated the multipart upload. "
+}

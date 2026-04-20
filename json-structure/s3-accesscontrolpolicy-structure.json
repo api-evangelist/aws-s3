@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "AccessControlPolicy",
+  "type": "object",
+  "description": "Contains the elements that set the ACL permissions for an object per grantee.",
+  "fields": [
+    {
+      "name": "Grants",
+      "type": "string"
+    },
+    {
+      "name": "Owner",
+      "type": "string"
+    }
+  ]
+}

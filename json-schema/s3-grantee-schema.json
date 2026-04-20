@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Grantee",
+  "type": "object",
+  "properties": {
+    "DisplayName": {},
+    "EmailAddress": {},
+    "ID": {},
+    "Type": {},
+    "URI": {}
+  },
+  "required": [
+    "Type"
+  ],
+  "description": "Container for the person being granted permissions."
+}

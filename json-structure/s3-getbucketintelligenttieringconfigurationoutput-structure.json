@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GetBucketIntelligentTieringConfigurationOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "IntelligentTieringConfiguration",
+      "type": "string"
+    }
+  ]
+}

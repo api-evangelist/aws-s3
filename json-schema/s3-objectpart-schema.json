@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObjectPart",
+  "type": "object",
+  "properties": {
+    "PartNumber": {},
+    "Size": {},
+    "ChecksumCRC32": {},
+    "ChecksumCRC32C": {},
+    "ChecksumSHA1": {},
+    "ChecksumSHA256": {}
+  },
+  "description": "A container for elements related to an individual part."
+}

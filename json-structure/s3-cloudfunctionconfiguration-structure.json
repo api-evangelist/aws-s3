@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CloudFunctionConfiguration",
+  "type": "object",
+  "description": "Container for specifying the Lambda notification configuration.",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "description": "An optional unique identifier for configurations in a notification configuration. If you don't provide one, Amazon S3 will assign an ID."
+    },
+    {
+      "name": "Event",
+      "type": "string"
+    },
+    {
+      "name": "Events",
+      "type": "string"
+    },
+    {
+      "name": "CloudFunction",
+      "type": "string"
+    },
+    {
+      "name": "InvocationRole",
+      "type": "string"
+    }
+  ]
+}

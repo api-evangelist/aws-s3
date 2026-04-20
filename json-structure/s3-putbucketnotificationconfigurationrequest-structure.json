@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "PutBucketNotificationConfigurationRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "NotificationConfiguration",
+      "type": "object",
+      "description": "A container for specifying the notification configuration of the bucket. If this element is empty, notifications are turned off for the bucket."
+    }
+  ]
+}

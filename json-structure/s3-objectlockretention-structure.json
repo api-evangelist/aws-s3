@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ObjectLockRetention",
+  "type": "object",
+  "description": "A Retention configuration for an object.",
+  "fields": [
+    {
+      "name": "Mode",
+      "type": "string"
+    },
+    {
+      "name": "RetainUntilDate",
+      "type": "string"
+    }
+  ]
+}

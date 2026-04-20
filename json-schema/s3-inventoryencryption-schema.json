@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InventoryEncryption",
+  "type": "object",
+  "properties": {
+    "SSES3": {},
+    "SSEKMS": {}
+  },
+  "description": "Contains the type of server-side encryption used to encrypt the inventory results."
+}

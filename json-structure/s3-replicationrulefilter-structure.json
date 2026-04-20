@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ReplicationRuleFilter",
+  "type": "object",
+  "description": "A filter that identifies the subset of objects to which the replication rule applies. A <code>Filter</code> must specify exactly one <code>Prefix</code>, <code>Tag</code>, or an <code>And</code> child element.",
+  "fields": [
+    {
+      "name": "Prefix",
+      "type": "string"
+    },
+    {
+      "name": "Tag",
+      "type": "string"
+    },
+    {
+      "name": "And",
+      "type": "string"
+    }
+  ]
+}

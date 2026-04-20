@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "InventoryConfiguration",
+  "type": "object",
+  "description": "Specifies the inventory configuration for an Amazon S3 bucket. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGETInventoryConfig.html\">GET Bucket inventory</a> in the <i>Amazon S3 API Reference</i>. ",
+  "fields": [
+    {
+      "name": "Destination",
+      "type": "string"
+    },
+    {
+      "name": "IsEnabled",
+      "type": "string"
+    },
+    {
+      "name": "Filter",
+      "type": "string"
+    },
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "IncludedObjectVersions",
+      "type": "string"
+    },
+    {
+      "name": "OptionalFields",
+      "type": "string"
+    },
+    {
+      "name": "Schedule",
+      "type": "string"
+    }
+  ]
+}

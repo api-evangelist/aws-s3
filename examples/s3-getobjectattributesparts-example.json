@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GetObjectAttributesParts",
+  "example": {
+    "TotalPartsCount": null,
+    "PartNumberMarker": null,
+    "NextPartNumberMarker": null,
+    "MaxParts": null,
+    "IsTruncated": null,
+    "Parts": null
+  }
+}

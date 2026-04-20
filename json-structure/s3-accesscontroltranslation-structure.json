@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "AccessControlTranslation",
+  "type": "object",
+  "description": "A container for information about access control for replicas.",
+  "fields": [
+    {
+      "name": "Owner",
+      "type": "string"
+    }
+  ]
+}

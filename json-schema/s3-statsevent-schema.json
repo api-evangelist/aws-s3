@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StatsEvent",
+  "type": "object",
+  "properties": {
+    "Details": {}
+  },
+  "description": "Container for the Stats Event."
+}

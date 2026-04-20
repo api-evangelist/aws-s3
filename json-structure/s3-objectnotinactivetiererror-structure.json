@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ObjectNotInActiveTierError",
+  "type": "object"
+}

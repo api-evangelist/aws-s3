@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Encryption",
+  "type": "object",
+  "properties": {
+    "EncryptionType": {},
+    "KMSKeyId": {},
+    "KMSContext": {}
+  },
+  "required": [
+    "EncryptionType"
+  ],
+  "description": "Contains the type of server-side encryption used."
+}

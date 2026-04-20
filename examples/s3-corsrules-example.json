@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CORSRules",
+  "example": [
+    {
+      "ID": null,
+      "AllowedHeaders": null,
+      "AllowedMethods": null,
+      "AllowedOrigins": null,
+      "ExposeHeaders": null,
+      "MaxAgeSeconds": null
+    }
+  ]
+}

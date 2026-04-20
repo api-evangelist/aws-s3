@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GetBucketWebsiteOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "RedirectAllRequestsTo",
+      "type": "string"
+    },
+    {
+      "name": "IndexDocument",
+      "type": "string"
+    },
+    {
+      "name": "ErrorDocument",
+      "type": "string"
+    },
+    {
+      "name": "RoutingRules",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SseKmsEncryptedObjects",
+  "type": "object",
+  "properties": {
+    "Status": {}
+  },
+  "required": [
+    "Status"
+  ],
+  "description": "A container for filter information for the selection of S3 objects encrypted with Amazon Web Services KMS."
+}

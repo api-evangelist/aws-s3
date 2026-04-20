@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "EncryptionConfiguration",
+  "type": "object",
+  "description": "Specifies encryption-related information for an Amazon S3 bucket that is a destination for replicated objects.",
+  "fields": [
+    {
+      "name": "ReplicaKmsKeyID",
+      "type": "string"
+    }
+  ]
+}

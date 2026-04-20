@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "OutputSerialization",
+  "type": "object",
+  "description": "Describes how results of the Select job are serialized.",
+  "fields": [
+    {
+      "name": "CSV",
+      "type": "string"
+    },
+    {
+      "name": "JSON",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Tiering",
+  "type": "object",
+  "description": "The S3 Intelligent-Tiering storage class is designed to optimize storage costs by automatically moving data to the most cost-effective storage access tier, without additional operational overhead.",
+  "fields": [
+    {
+      "name": "Days",
+      "type": "string"
+    },
+    {
+      "name": "AccessTier",
+      "type": "string"
+    }
+  ]
+}

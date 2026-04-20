@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Encryption",
+  "type": "object",
+  "description": "Contains the type of server-side encryption used.",
+  "fields": [
+    {
+      "name": "EncryptionType",
+      "type": "string"
+    },
+    {
+      "name": "KMSKeyId",
+      "type": "string"
+    },
+    {
+      "name": "KMSContext",
+      "type": "string"
+    }
+  ]
+}

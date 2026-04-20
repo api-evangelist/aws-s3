@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "BucketLifecycleConfiguration",
+  "type": "object",
+  "description": "Specifies the lifecycle configuration for objects in an Amazon S3 bucket. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html\">Object Lifecycle Management</a> in the <i>Amazon S3 User Guide</i>.",
+  "fields": [
+    {
+      "name": "Rules",
+      "type": "string"
+    }
+  ]
+}

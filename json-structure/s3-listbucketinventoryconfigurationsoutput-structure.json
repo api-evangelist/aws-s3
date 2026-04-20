@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ListBucketInventoryConfigurationsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "ContinuationToken",
+      "type": "string"
+    },
+    {
+      "name": "InventoryConfigurationList",
+      "type": "string"
+    },
+    {
+      "name": "IsTruncated",
+      "type": "string"
+    },
+    {
+      "name": "NextContinuationToken",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PutBucketNotificationConfigurationRequest",
+  "type": "object",
+  "properties": {
+    "NotificationConfiguration": {
+      "type": "object",
+      "properties": {
+        "TopicConfigurations": {},
+        "QueueConfigurations": {},
+        "LambdaFunctionConfigurations": {},
+        "EventBridgeConfiguration": {}
+      },
+      "description": "A container for specifying the notification configuration of the bucket. If this element is empty, notifications are turned off for the bucket."
+    }
+  },
+  "required": [
+    "NotificationConfiguration"
+  ]
+}

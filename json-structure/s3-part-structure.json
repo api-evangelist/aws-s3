@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Part",
+  "type": "object",
+  "description": "Container for elements related to a part.",
+  "fields": [
+    {
+      "name": "PartNumber",
+      "type": "string"
+    },
+    {
+      "name": "LastModified",
+      "type": "string"
+    },
+    {
+      "name": "ETag",
+      "type": "string"
+    },
+    {
+      "name": "Size",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32C",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA1",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA256",
+      "type": "string"
+    }
+  ]
+}

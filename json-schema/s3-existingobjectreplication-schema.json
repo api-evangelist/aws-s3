@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExistingObjectReplication",
+  "type": "object",
+  "properties": {
+    "Status": {}
+  },
+  "required": [
+    "Status"
+  ],
+  "description": "Optional configuration to replicate existing source bucket objects. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-what-is-isnot-replicated.html#existing-object-replication\">Replicating Existing Objects</a> in the <i>Amazon S3 User Guide</i>. "
+}

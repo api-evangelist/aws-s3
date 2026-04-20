@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ErrorDocument",
+  "type": "object",
+  "description": "The error information.",
+  "fields": [
+    {
+      "name": "Key",
+      "type": "string"
+    }
+  ]
+}

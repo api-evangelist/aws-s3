@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "SelectParameters",
+  "type": "object",
+  "description": "Describes the parameters for Select job types.",
+  "fields": [
+    {
+      "name": "InputSerialization",
+      "type": "string"
+    },
+    {
+      "name": "ExpressionType",
+      "type": "string"
+    },
+    {
+      "name": "Expression",
+      "type": "string"
+    },
+    {
+      "name": "OutputSerialization",
+      "type": "string"
+    }
+  ]
+}

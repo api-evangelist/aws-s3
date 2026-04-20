@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "InputSerialization",
+  "type": "object",
+  "description": "Describes the serialization format of the object.",
+  "fields": [
+    {
+      "name": "CSV",
+      "type": "string"
+    },
+    {
+      "name": "CompressionType",
+      "type": "string"
+    },
+    {
+      "name": "JSON",
+      "type": "string"
+    },
+    {
+      "name": "Parquet",
+      "type": "string"
+    }
+  ]
+}

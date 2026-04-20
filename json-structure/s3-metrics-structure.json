@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Metrics",
+  "type": "object",
+  "description": " A container specifying replication metrics-related settings enabling replication metrics and events.",
+  "fields": [
+    {
+      "name": "Status",
+      "type": "string"
+    },
+    {
+      "name": "EventThreshold",
+      "type": "string"
+    }
+  ]
+}

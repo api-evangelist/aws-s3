@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "RoutingRule",
+  "type": "object",
+  "description": "Specifies the redirect behavior and when a redirect is applied. For more information about routing rules, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/how-to-page-redirect.html#advanced-conditional-redirects\">Configuring advanced conditional redirects</a> in the <i>Amazon S3 User Guide</i>.",
+  "fields": [
+    {
+      "name": "Condition",
+      "type": "string"
+    },
+    {
+      "name": "Redirect",
+      "type": "string"
+    }
+  ]
+}

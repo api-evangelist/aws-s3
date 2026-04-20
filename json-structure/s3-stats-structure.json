@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "Stats",
+  "type": "object",
+  "description": "Container for the stats details.",
+  "fields": [
+    {
+      "name": "BytesScanned",
+      "type": "string"
+    },
+    {
+      "name": "BytesProcessed",
+      "type": "string"
+    },
+    {
+      "name": "BytesReturned",
+      "type": "string"
+    }
+  ]
+}

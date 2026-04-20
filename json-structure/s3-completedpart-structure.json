@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "CompletedPart",
+  "type": "object",
+  "description": "Details of the parts that were uploaded.",
+  "fields": [
+    {
+      "name": "ETag",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumCRC32C",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA1",
+      "type": "string"
+    },
+    {
+      "name": "ChecksumSHA256",
+      "type": "string"
+    },
+    {
+      "name": "PartNumber",
+      "type": "string"
+    }
+  ]
+}

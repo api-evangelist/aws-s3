@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "StorageClassAnalysisDataExport",
+  "type": "object",
+  "description": "Container for data related to the storage class analysis for an Amazon S3 bucket for export.",
+  "fields": [
+    {
+      "name": "OutputSchemaVersion",
+      "type": "string"
+    },
+    {
+      "name": "Destination",
+      "type": "string"
+    }
+  ]
+}

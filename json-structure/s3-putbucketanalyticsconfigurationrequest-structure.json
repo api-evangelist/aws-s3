@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "PutBucketAnalyticsConfigurationRequest",
+  "type": "object",
+  "fields": [
+    {
+      "name": "AnalyticsConfiguration",
+      "type": "string"
+    }
+  ]
+}

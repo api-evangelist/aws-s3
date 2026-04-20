@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "InventorySchedule",
+  "type": "object",
+  "description": "Specifies the schedule for generating inventory results.",
+  "fields": [
+    {
+      "name": "Frequency",
+      "type": "string"
+    }
+  ]
+}

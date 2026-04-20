@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ScanRange",
+  "type": "object",
+  "description": "Specifies the byte range of the object to get the records from. A record is processed when its first byte is contained by the range. This parameter is optional, but when specified, it must not be empty. See RFC 2616, Section 14.35.1 about how to specify the start and end of the range.",
+  "fields": [
+    {
+      "name": "Start",
+      "type": "string"
+    },
+    {
+      "name": "End",
+      "type": "string"
+    }
+  ]
+}

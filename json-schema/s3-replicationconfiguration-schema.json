@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReplicationConfiguration",
+  "type": "object",
+  "properties": {
+    "Role": {},
+    "Rules": {}
+  },
+  "required": [
+    "Role",
+    "Rules"
+  ],
+  "description": "A container for replication rules. You can add up to 1,000 rules. The maximum size of a replication configuration is 2 MB."
+}

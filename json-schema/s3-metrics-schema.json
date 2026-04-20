@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metrics",
+  "type": "object",
+  "properties": {
+    "Status": {},
+    "EventThreshold": {}
+  },
+  "required": [
+    "Status"
+  ],
+  "description": " A container specifying replication metrics-related settings enabling replication metrics and events."
+}

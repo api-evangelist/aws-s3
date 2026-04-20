@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WebsiteConfiguration",
+  "type": "object",
+  "properties": {
+    "ErrorDocument": {},
+    "IndexDocument": {},
+    "RedirectAllRequestsTo": {},
+    "RoutingRules": {}
+  },
+  "description": "Specifies website configuration parameters for an Amazon S3 bucket."
+}

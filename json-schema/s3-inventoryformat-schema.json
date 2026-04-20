@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InventoryFormat",
+  "type": "string",
+  "enum": [
+    "CSV",
+    "ORC",
+    "Parquet"
+  ]
+}

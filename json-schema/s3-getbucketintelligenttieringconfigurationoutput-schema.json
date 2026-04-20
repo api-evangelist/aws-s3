@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GetBucketIntelligentTieringConfigurationOutput",
+  "type": "object",
+  "properties": {
+    "IntelligentTieringConfiguration": {}
+  }
+}

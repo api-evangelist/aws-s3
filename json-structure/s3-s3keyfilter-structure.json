@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "S3KeyFilter",
+  "type": "object",
+  "description": "A container for object key name prefix and suffix filtering rules.",
+  "fields": [
+    {
+      "name": "FilterRules",
+      "type": "string"
+    }
+  ]
+}

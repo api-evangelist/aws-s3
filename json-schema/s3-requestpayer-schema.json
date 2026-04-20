@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RequestPayer",
+  "type": "string",
+  "enum": [
+    "requester"
+  ],
+  "description": "Confirms that the requester knows that they will be charged for the request. Bucket owners need not specify this parameter in their requests. For information about downloading objects from Requester Pays buckets, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/ObjectsinRequesterPaysBuckets.html\">Downloading Objects in Requester Pays Buckets</a> in the <i>Amazon S3 User Guide</i>."
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Grantee",
+  "example": {
+    "DisplayName": null,
+    "EmailAddress": null,
+    "ID": null,
+    "Type": null,
+    "URI": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LifecycleExpiration",
+  "type": "object",
+  "properties": {
+    "Date": {},
+    "Days": {},
+    "ExpiredObjectDeleteMarker": {}
+  },
+  "description": "Container for the expiration for the lifecycle of the object."
+}

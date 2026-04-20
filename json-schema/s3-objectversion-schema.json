@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObjectVersion",
+  "type": "object",
+  "properties": {
+    "ETag": {},
+    "ChecksumAlgorithm": {},
+    "Size": {},
+    "StorageClass": {},
+    "Key": {},
+    "VersionId": {},
+    "IsLatest": {},
+    "LastModified": {},
+    "Owner": {}
+  },
+  "description": "The version of an object."
+}

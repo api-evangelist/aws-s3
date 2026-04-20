@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AccessControlPolicy",
+  "type": "object",
+  "properties": {
+    "Grants": {},
+    "Owner": {}
+  },
+  "description": "Contains the elements that set the ACL permissions for an object per grantee."
+}

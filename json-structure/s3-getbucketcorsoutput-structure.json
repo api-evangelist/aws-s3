@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GetBucketCorsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "CORSRules",
+      "type": "string"
+    }
+  ]
+}

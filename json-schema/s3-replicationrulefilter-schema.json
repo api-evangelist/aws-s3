@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReplicationRuleFilter",
+  "type": "object",
+  "properties": {
+    "Prefix": {},
+    "Tag": {},
+    "And": {}
+  },
+  "description": "A filter that identifies the subset of objects to which the replication rule applies. A <code>Filter</code> must specify exactly one <code>Prefix</code>, <code>Tag</code>, or an <code>And</code> child element."
+}

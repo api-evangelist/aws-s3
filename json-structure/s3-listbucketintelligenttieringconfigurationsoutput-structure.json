@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ListBucketIntelligentTieringConfigurationsOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "IsTruncated",
+      "type": "string"
+    },
+    {
+      "name": "ContinuationToken",
+      "type": "string"
+    },
+    {
+      "name": "NextContinuationToken",
+      "type": "string"
+    },
+    {
+      "name": "IntelligentTieringConfigurationList",
+      "type": "string"
+    }
+  ]
+}

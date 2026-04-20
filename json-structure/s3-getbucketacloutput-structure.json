@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GetBucketAclOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Owner",
+      "type": "string"
+    },
+    {
+      "name": "Grants",
+      "type": "string"
+    }
+  ]
+}

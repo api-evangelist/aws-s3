@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetadataEntry",
+  "type": "object",
+  "properties": {
+    "Name": {},
+    "Value": {}
+  },
+  "description": "A metadata key-value pair to store with an object."
+}

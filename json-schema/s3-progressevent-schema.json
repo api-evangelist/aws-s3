@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProgressEvent",
+  "type": "object",
+  "properties": {
+    "Details": {}
+  },
+  "description": "This data type contains information about the progress event of an operation."
+}

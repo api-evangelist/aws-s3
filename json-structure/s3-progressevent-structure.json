@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ProgressEvent",
+  "type": "object",
+  "description": "This data type contains information about the progress event of an operation.",
+  "fields": [
+    {
+      "name": "Details",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReplicationRules",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "ID": {},
+      "Priority": {},
+      "Prefix": {},
+      "Filter": {
+        "type": "object",
+        "properties": {
+          "Prefix": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/Prefix"
+              },
+              {
+                "description": "<p>An object key name prefix that identifies the subset of objects to which the rule applies.</p> <important> <p>Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints\"> XML related object key constraints</a>.</p> </important>"
+              }
+            ]
+          },
+          "Tag": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/Tag"
+              },
+              {
+                "description": "<p>A container for specifying a tag key and value. </p> <p>The rule applies only to objects that have the tag in their tag set.</p>"
+              }
+            ]
+          },
+          "And": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/ReplicationRuleAndOperator"
+              },
+              {
+                "description": "<p>A container for specifying rule filters. The filters determine the subset of objects to which the rule applies. This element is required only if you specify more than one filter. For example: </p> <ul> <li> <p>If you specify both a <code>Prefix</code> and a <code>Tag</code> filter, wrap these filters in an <code>And</code> tag.</p> </li> <li> <p>If you specify a filter based on multiple tags, wrap the <code>Tag</code> elements in an <code>And</code> tag.</p> </li> </ul>"
+              }
+            ]
+          }
+        },
+        "description": "A filter that identifies the subset of objects to which the replication rule applies. A <code>Filter</code> must specify exactly one <code>Prefix</code>, <code>Tag</code>, or an <code>And</code> child element."
+      },
+      "Status": {},
+      "SourceSelectionCriteria": {},
+      "ExistingObjectReplication": {},
+      "Destination": {},
+      "DeleteMarkerReplication": {
+        "type": "object",
+        "properties": {
+          "Status": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/DeleteMarkerReplicationStatus"
+              },
+              {
+                "description": "<p>Indicates whether to replicate delete markers.</p> <note> <p>Indicates whether to replicate delete markers.</p> </note>"
+              }
+            ]
+          }
+        },
+        "description": "<p>Specifies whether Amazon S3 replicates delete markers. If you specify a <code>Filter</code> in your replication configuration, you must also include a <code>DeleteMarkerReplication</code> element. If your <code>Filter</code> includes a <code>Tag</code> element, the <code>DeleteMarkerReplication</code> <code>Status</code> must be set to Disabled, because Amazon S3 does not support replicating delete markers for tag-based rules. For an example configuration, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-config-min-rule-config\">Basic Rule Configuration</a>. </p> <p>For more information about delete marker replication, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/delete-marker-replication.html\">Basic Rule Configuration</a>. </p> <note> <p>If you are using an earlier version of the replication configuration, Amazon S3 handles replication of delete markers differently. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-backward-compat-considerations\">Backward Compatibility</a>.</p> </note>"
+      }
+    },
+    "required": [
+      "Status",
+      "Destination"
+    ],
+    "description": "Specifies which Amazon S3 objects to replicate and where to store the replicas."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CORSRules",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "ID": {},
+      "AllowedHeaders": {},
+      "AllowedMethods": {},
+      "AllowedOrigins": {},
+      "ExposeHeaders": {},
+      "MaxAgeSeconds": {}
+    },
+    "required": [
+      "AllowedMethods",
+      "AllowedOrigins"
+    ],
+    "description": "Specifies a cross-origin access rule for an Amazon S3 bucket."
+  }
+}

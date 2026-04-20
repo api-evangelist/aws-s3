@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntelligentTieringFilter",
+  "type": "object",
+  "properties": {
+    "Prefix": {},
+    "Tag": {
+      "type": "object",
+      "properties": {
+        "Key": {},
+        "Value": {}
+      },
+      "required": [
+        "Key",
+        "Value"
+      ],
+      "description": "A container of a key value name pair."
+    },
+    "And": {}
+  },
+  "description": "The <code>Filter</code> is used to identify objects that the S3 Intelligent-Tiering configuration applies to."
+}

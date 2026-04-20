@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "AccelerateConfiguration",
+  "type": "object",
+  "description": "Configures the transfer acceleration state for an Amazon S3 bucket. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html\">Amazon S3 Transfer Acceleration</a> in the <i>Amazon S3 User Guide</i>.",
+  "fields": [
+    {
+      "name": "Status",
+      "type": "string"
+    }
+  ]
+}

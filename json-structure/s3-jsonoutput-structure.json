@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "JSONOutput",
+  "type": "object",
+  "description": "Specifies JSON as request's output serialization format.",
+  "fields": [
+    {
+      "name": "RecordDelimiter",
+      "type": "string"
+    }
+  ]
+}

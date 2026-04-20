@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ObjectLockConfiguration",
+  "type": "object",
+  "description": "The container element for Object Lock configuration parameters.",
+  "fields": [
+    {
+      "name": "ObjectLockEnabled",
+      "type": "string"
+    },
+    {
+      "name": "Rule",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RedirectAllRequestsTo",
+  "type": "object",
+  "properties": {
+    "HostName": {},
+    "Protocol": {}
+  },
+  "required": [
+    "HostName"
+  ],
+  "description": "Specifies the redirect behavior of all requests to a website endpoint of an Amazon S3 bucket."
+}

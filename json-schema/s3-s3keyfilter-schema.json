@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "S3KeyFilter",
+  "type": "object",
+  "properties": {
+    "FilterRules": {}
+  },
+  "description": "A container for object key name prefix and suffix filtering rules."
+}

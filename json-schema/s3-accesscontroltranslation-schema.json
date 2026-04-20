@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AccessControlTranslation",
+  "type": "object",
+  "properties": {
+    "Owner": {}
+  },
+  "required": [
+    "Owner"
+  ],
+  "description": "A container for information about access control for replicas."
+}

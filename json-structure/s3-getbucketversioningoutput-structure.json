@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "GetBucketVersioningOutput",
+  "type": "object",
+  "fields": [
+    {
+      "name": "Status",
+      "type": "string"
+    },
+    {
+      "name": "MFADelete",
+      "type": "string"
+    }
+  ]
+}

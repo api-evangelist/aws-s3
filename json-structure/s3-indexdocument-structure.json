@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "IndexDocument",
+  "type": "object",
+  "description": "Container for the <code>Suffix</code> element.",
+  "fields": [
+    {
+      "name": "Suffix",
+      "type": "string"
+    }
+  ]
+}

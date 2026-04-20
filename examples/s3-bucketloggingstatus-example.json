@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BucketLoggingStatus",
+  "example": {
+    "LoggingEnabled": {
+      "TargetBucket": null,
+      "TargetGrants": null,
+      "TargetPrefix": null
+    }
+  }
+}

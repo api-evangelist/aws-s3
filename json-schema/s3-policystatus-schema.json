@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PolicyStatus",
+  "type": "object",
+  "properties": {
+    "IsPublic": {}
+  },
+  "description": "The container element for a bucket's policy status."
+}

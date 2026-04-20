@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RequestProgress",
+  "type": "object",
+  "properties": {
+    "Enabled": {}
+  },
+  "description": "Container for specifying if periodic <code>QueryProgress</code> messages should be sent."
+}

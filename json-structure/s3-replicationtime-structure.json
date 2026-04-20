@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "title": "ReplicationTime",
+  "type": "object",
+  "description": " A container specifying S3 Replication Time Control (S3 RTC) related information, including whether S3 RTC is enabled and the time when all objects and operations on objects must be replicated. Must be specified together with a <code>Metrics</code> block. ",
+  "fields": [
+    {
+      "name": "Status",
+      "type": "string"
+    },
+    {
+      "name": "Time",
+      "type": "string"
+    }
+  ]
+}
