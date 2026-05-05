@@ -1,0 +1,13 @@
+{
+  "repo": "aws-s3",
+  "feeds": [
+    {
+      "source": "https://aws.amazon.com/blogs/storage/",
+      "feed_url": "https://aws.amazon.com/blogs/storage/feed/",
+      "saved": 10,
+      "title": "AWS Storage Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:23:13Z"
+}
