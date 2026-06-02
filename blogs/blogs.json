@@ -2,12 +2,20 @@
   "repo": "aws-s3",
   "feeds": [
     {
-      "source": "https://aws.amazon.com/blogs/storage/",
+      "source": "https://aws.amazon.com/blogs/storage/feed/",
       "feed_url": "https://aws.amazon.com/blogs/storage/feed/",
-      "title": "AWS Storage Blog",
-      "saved": 18
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://aws.amazon.com/s3/",
+      "feed_url": "https://aws.amazon.com/s3/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 29,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 35,
+  "fetched": "2026-06-01T23:35:02Z"
 }
