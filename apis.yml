@@ -3,7 +3,7 @@ name: Amazon S3 API
 description: Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability,
   security, and performance for storing and retrieving any amount of data.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - AWS
 - Cloud Storage
