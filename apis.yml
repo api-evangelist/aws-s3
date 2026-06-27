@@ -34,10 +34,10 @@ apis:
     url: https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html
   - type: GettingStarted
     url: https://aws.amazon.com/s3/getting-started/
-  - type: SDK
+  - type: SDKs
     url: https://aws.amazon.com/tools/
     title: AWS SDKs
-  - type: NaftikoCapability
+  - type: X-NaftikoCapability
     url: capabilities/aws-s3.yaml
 common:
 - type: Website
