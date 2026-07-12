@@ -40,6 +40,14 @@ apis:
   - type: X-NaftikoCapability
     url: capabilities/aws-s3.yaml
 common:
+- type: TrustCenter
+  url: security/aws-s3-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/aws-s3-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/aws-s3-domain-security.yml
+- type: Authentication
+  url: authentication/aws-s3-authentication.yml
 - type: Website
   url: https://aws.amazon.com/s3/
 - type: Blog

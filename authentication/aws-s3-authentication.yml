@@ -1,0 +1,16 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/aws-s3-openapi.yaml
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+schemes:
+- name: hmac
+  type: apiKey
+  in: header
+  parameter: Authorization
+  description: Amazon S3 signature
+  sources:
+  - openapi/aws-s3-openapi.yaml

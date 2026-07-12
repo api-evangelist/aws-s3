@@ -1,0 +1,20 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://aws.amazon.com/compliance/
+url: https://aws.amazon.com/compliance/
+certifications:
+- PCI DSS
+- HIPAA
+- FedRAMP
+- GDPR
+- FIPS 140
+evidence:
+- source: https://aws.amazon.com/compliance/
+  keywords:
+  - pci-dss
+  - hipaa
+  - fedramp
+  - trust center
+  - compliance certification
+  - gdpr
