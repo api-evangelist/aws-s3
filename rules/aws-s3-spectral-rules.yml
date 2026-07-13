@@ -1,73 +1,162 @@
+# aws-s3 — Spectral ruleset (strengthened)
+# Plain Spectral. Existing hand-authored rules preserved; measured rules added
+# from this provider's own OpenAPI conventions by strengthen_ruleset.py,
+# then self-validated against the spec.
+#
+# Provenance:
+#   - servers-https-only: 50% of servers already https (warn)
+#   - path-params-casing: pascal @ 100% (n=119)
+#   - query-params-casing: snake @ 51% (n=165)
+#   - operationid-casing: pascal @ 100% (n=97)
+#   - schema-names-casing: pascal @ 99% (n=574)
+#   - schema-properties-casing: pascal @ 97% (n=564)
+#   - security: global (root) — NOT emitting operation-security-required
+#   - error-schema-defined: ObjectNotInActiveTierError
+#   - merge: kept 10 existing, added 9 measured, upgraded 0
+#   - added: servers-https-only, path-params-casing, query-params-casing, operationid-casing, schema-names-casing, schema-properties-casing, security-schemes-defined, error-schema-defined, no-empty-descriptions
+extends:
+  - spectral:oas
 rules:
   s3-operation-summary:
     description: All operations must have a summary starting with "Amazon S3"
     severity: warn
-    given: "$.paths[*][get,post,put,delete,patch,head]"
+    given: $.paths[*][get,post,put,delete,patch,head]
     then:
       field: summary
       function: pattern
       functionOptions:
-        match: "^Amazon S3"
+        match: ^Amazon S3
   s3-operation-id:
     description: All operations must have an operationId
     severity: error
-    given: "$.paths[*][get,post,put,delete,patch,head]"
+    given: $.paths[*][get,post,put,delete,patch,head]
     then:
       field: operationId
       function: truthy
   s3-info-title:
     description: Info object must have a title
     severity: error
-    given: "$.info"
+    given: $.info
     then:
       field: title
       function: truthy
   s3-info-version:
     description: Info object must have a version
     severity: error
-    given: "$.info"
+    given: $.info
     then:
       field: version
       function: truthy
   s3-response-description:
     description: All responses must have a description
     severity: error
-    given: "$.paths[*][*].responses[*]"
+    given: $.paths[*][*].responses[*]
     then:
       field: description
       function: truthy
   s3-parameter-description:
     description: All parameters should have a description
     severity: warn
-    given: "$.paths[*][*].parameters[*]"
+    given: $.paths[*][*].parameters[*]
     then:
       field: description
       function: truthy
   s3-microcks-annotation:
     description: Operations should have x-microcks-operation annotation
     severity: info
-    given: "$.paths[*][get,post,put,delete,patch,head]"
+    given: $.paths[*][get,post,put,delete,patch,head]
     then:
       field: x-microcks-operation
       function: truthy
   s3-schema-type:
     description: Schema components should have a type
     severity: warn
-    given: "$.components.schemas[*]"
+    given: $.components.schemas[*]
     then:
       field: type
       function: truthy
   s3-security-defined:
     description: API security schemes should be defined
     severity: warn
-    given: "$"
+    given: $
     then:
       field: components.securitySchemes
       function: truthy
   s3-servers-defined:
     description: Servers array should be defined
     severity: warn
-    given: "$"
+    given: $
     then:
       field: servers
+      function: truthy
+  servers-https-only:
+    description: Server URLs must use HTTPS.
+    severity: warn
+    given: $.servers[*].url
+    then:
+      function: pattern
+      functionOptions:
+        match: ^https://
+  path-params-casing:
+    description: Path parameters should be PascalCase (the dominant convention in this API).
+    severity: warn
+    given: $.paths[*].parameters[?(@.in=='path')].name
+    then:
+      function: casing
+      functionOptions:
+        type: pascal
+  query-params-casing:
+    description: Query parameters should be snake_case (the dominant convention in this API).
+    severity: info
+    given: $.paths[*][get,post,put,patch,delete].parameters[?(@.in=='query')]
+    then:
+      field: name
+      function: casing
+      functionOptions:
+        type: snake
+  operationid-casing:
+    description: Operation IDs should be PascalCase (the dominant convention in this API).
+    severity: warn
+    given: $.paths[*][get,post,put,patch,delete].operationId
+    then:
+      function: casing
+      functionOptions:
+        type: pascal
+  schema-names-casing:
+    description: Component schema names should be PascalCase (the dominant convention in this API).
+    severity: warn
+    given: $.components.schemas
+    then:
+      field: '@key'
+      function: pattern
+      functionOptions:
+        match: ^[A-Z][A-Za-z0-9]*$
+  schema-properties-casing:
+    description: Schema properties should be PascalCase (the dominant convention in this API).
+    severity: warn
+    given: $.components.schemas[*].properties
+    then:
+      field: '@key'
+      function: pattern
+      functionOptions:
+        match: ^[A-Z][A-Za-z0-9]*$
+  security-schemes-defined:
+    description: Security schemes should be defined in components.
+    severity: warn
+    given: $.components
+    then:
+      field: securitySchemes
+      function: truthy
+  error-schema-defined:
+    description: A shared error schema (ObjectNotInActiveTierError) should be defined for error payloads.
+    severity: warn
+    given: $.components.schemas
+    then:
+      field: ObjectNotInActiveTierError
+      function: truthy
+  no-empty-descriptions:
+    description: Descriptions must not be empty strings.
+    severity: warn
+    given: $..description
+    then:
       function: truthy
