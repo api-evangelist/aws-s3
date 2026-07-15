@@ -40,6 +40,8 @@ apis:
   - type: X-NaftikoCapability
     url: capabilities/aws-s3.yaml
 common:
+- type: AgenticAccess
+  url: agentic-access/aws-s3-agentic-access.yml
 - type: TrustCenter
   url: security/aws-s3-trust-center.yml
 - type: VulnerabilityDisclosure
