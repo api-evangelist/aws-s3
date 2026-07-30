@@ -3,7 +3,20 @@ name: Amazon S3 API
 description: Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability,
   security, and performance for storing and retrieving any amount of data.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-s3.png
 tags:
 - AWS
 - Cloud Storage
@@ -14,32 +27,54 @@ created: '2024-01-15'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-- aid: aws-s3:amazon-s3-rest-api
-  name: Amazon S3 REST API
-  description: RESTful API for Amazon S3 object storage operations including bucket management, object CRUD, access control,
-    versioning, lifecycle policies, and multipart uploads.
+- aid: aws-s3:aws-s3-amazon-simple-storage-service-api
+  name: Amazon S3 API Amazon Simple Storage Service API
+  description: >-
+    The Amazon Simple Storage Service API from Amazon S3 API — 48 operation(s) for amazon simple storage
+    service.
   humanURL: https://aws.amazon.com/s3/
   baseURL: https://s3.amazonaws.com
   tags:
-  - Buckets
-  - Objects
-  - REST
-  - Storage
+  - Amazon Simple Storage Service
   properties:
+  - type: OpenAPI
+    url: openapi/aws-s3-amazon-simple-storage-service-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
-  - type: OpenAPI
-    url: openapi/aws-s3-openapi.yaml
   - type: Authentication
     url: https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html
   - type: GettingStarted
     url: https://aws.amazon.com/s3/getting-started/
   - type: SDKs
     url: https://aws.amazon.com/tools/
-    title: AWS SDKs
+  - type: X-NaftikoCapability
+    url: capabilities/aws-s3.yaml
+- aid: aws-s3:aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
+  name: Amazon S3 API WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
+  description: >-
+    The WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API from Amazon S3 API — 1 operation(s)
+    for writegetobjectresponse#x amz request route&x amz request token.
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https://s3.amazonaws.com
+  tags:
+  - WriteGetObjectResponse#x Amz Request Route&x Amz Request Token
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
+  - type: Authentication
+    url: https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/s3/getting-started/
+  - type: SDKs
+    url: https://aws.amazon.com/tools/
   - type: X-NaftikoCapability
     url: capabilities/aws-s3.yaml
 common:
+- type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-s3-api/overview
 - type: AgenticAccess
   url: agentic-access/aws-s3-agentic-access.yml
 - type: TrustCenter
