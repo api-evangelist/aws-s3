@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  version: 2006-03-01
+  version: "1.0.0"
   x-release: s3
   title: Amazon Simple Storage Service WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
   description: <p/>
@@ -23,7 +23,6 @@ info:
     url: https://raw.githubusercontent.com/aws/aws-sdk-js/master/apis/s3-2006-03-01.normal.json
     converter:
       url: https://github.com/mermade/aws2openapi
-      version: 1.0.0
     x-apisguru-driver: external
   x-apiClientRegistration:
     url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc2=h_ct

@@ -1,0 +1,533 @@
+{
+  "info": {
+    "_postman_id": "249a3c04-a702-489f-9c07-7c6cce829fcc",
+    "name": "Amazon Simple Storage Service WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API",
+    "description": "<p/>\n\nContact Support:\n Name: Mike Ralphson\n Email: mike.ralphson@gmail.com",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "createdAt": "2026-07-28T10:52:58.000Z",
+    "updatedAt": "2026-07-28T10:52:58.000Z",
+    "lastUpdatedBy": "35240",
+    "uid": "35240-249a3c04-a702-489f-9c07-7c6cce829fcc"
+  },
+  "item": [
+    {
+      "name": "WriteGetObjectResponse#x-amz-request-route&x-amz-request-token",
+      "item": [
+        {
+          "name": "Amazon S3 - WriteGetObjectResponse",
+          "id": "ac14dc9e-d709-44a3-8834-458fe844f49e",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "description": "(Required) Route prefix to the HTTP URL generated.",
+                "key": "x-amz-request-route",
+                "value": "<string>"
+              },
+              {
+                "description": "(Required) A single use encrypted token that maps <code>WriteGetObjectResponse</code> to the end user <code>GetObject</code> request.",
+                "key": "x-amz-request-token",
+                "value": "<string>"
+              },
+              {
+                "description": "<p>The integer status code for an HTTP response of a corresponding <code>GetObject</code> request.</p> <p class=\"title\"> <b>Status Codes</b> </p> <ul> <li> <p> <code>200 - OK</code> </p> </li> <li> <p> <code>206 - Partial Content</code> </p> </li> <li> <p> <code>304 - Not Modified</code> </p> </li> <li> <p> <code>400 - Bad Request</code> </p> </li> <li> <p> <code>401 - Unauthorized</code> </p> </li> <li> <p> <code>403 - Forbidden</code> </p> </li> <li> <p> <code>404 - Not Found</code> </p> </li> <li> <p> <code>405 - Method Not Allowed</code> </p> </li> <li> <p> <code>409 - Conflict</code> </p> </li> <li> <p> <code>411 - Length Required</code> </p> </li> <li> <p> <code>412 - Precondition Failed</code> </p> </li> <li> <p> <code>416 - Range Not Satisfiable</code> </p> </li> <li> <p> <code>500 - Internal Server Error</code> </p> </li> <li> <p> <code>503 - Service Unavailable</code> </p> </li> </ul>",
+                "key": "x-amz-fwd-status",
+                "value": "<integer>"
+              },
+              {
+                "description": "A string that uniquely identifies an error condition. Returned in the &lt;Code&gt; tag of the error XML response for a corresponding <code>GetObject</code> call. Cannot be used with a successful <code>StatusCode</code> header or when the transformed object is provided in the body. All error codes from S3 are sentence-cased. The regular expression (regex) value is <code>\"^[A-Z][a-zA-Z]+$\"</code>.",
+                "key": "x-amz-fwd-error-code",
+                "value": "<string>"
+              },
+              {
+                "description": "Contains a generic description of the error condition. Returned in the &lt;Message&gt; tag of the error XML response for a corresponding <code>GetObject</code> call. Cannot be used with a successful <code>StatusCode</code> header or when the transformed object is provided in body.",
+                "key": "x-amz-fwd-error-message",
+                "value": "<string>"
+              },
+              {
+                "description": "Indicates that a range of bytes was specified.",
+                "key": "x-amz-fwd-header-accept-ranges",
+                "value": "<string>"
+              },
+              {
+                "description": "Specifies caching behavior along the request/reply chain.",
+                "key": "x-amz-fwd-header-Cache-Control",
+                "value": "<string>"
+              },
+              {
+                "description": "Specifies presentational information for the object.",
+                "key": "x-amz-fwd-header-Content-Disposition",
+                "value": "<string>"
+              },
+              {
+                "description": "Specifies what content encodings have been applied to the object and thus what decoding mechanisms must be applied to obtain the media-type referenced by the Content-Type header field.",
+                "key": "x-amz-fwd-header-Content-Encoding",
+                "value": "<string>"
+              },
+              {
+                "description": "The language the content is in.",
+                "key": "x-amz-fwd-header-Content-Language",
+                "value": "<string>"
+              },
+              {
+                "description": "The size of the content body in bytes.",
+                "key": "Content-Length",
+                "value": "<integer>"
+              },
+              {
+                "description": "The portion of the object returned in the response.",
+                "key": "x-amz-fwd-header-Content-Range",
+                "value": "<string>"
+              },
+              {
+                "description": "A standard MIME type describing the format of the object data.",
+                "key": "x-amz-fwd-header-Content-Type",
+                "value": "<string>"
+              },
+              {
+                "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 32-bit CRC32 checksum of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p> <p/>",
+                "key": "x-amz-fwd-header-x-amz-checksum-crc32",
+                "value": "<string>"
+              },
+              {
+                "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 32-bit CRC32C checksum of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p>",
+                "key": "x-amz-fwd-header-x-amz-checksum-crc32c",
+                "value": "<string>"
+              },
+              {
+                "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 160-bit SHA-1 digest of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p>",
+                "key": "x-amz-fwd-header-x-amz-checksum-sha1",
+                "value": "<string>"
+              },
+              {
+                "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 256-bit SHA-256 digest of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p>",
+                "key": "x-amz-fwd-header-x-amz-checksum-sha256",
+                "value": "<string>"
+              },
+              {
+                "description": "Specifies whether an object stored in Amazon S3 is (<code>true</code>) or is not (<code>false</code>) a delete marker. ",
+                "key": "x-amz-fwd-header-x-amz-delete-marker",
+                "value": "<boolean>"
+              },
+              {
+                "description": "An opaque identifier assigned by a web server to a specific version of a resource found at a URL. ",
+                "key": "x-amz-fwd-header-ETag",
+                "value": "<string>"
+              },
+              {
+                "description": "The date and time at which the object is no longer cacheable.",
+                "key": "x-amz-fwd-header-Expires",
+                "value": "<dateTime>"
+              },
+              {
+                "description": "If the object expiration is configured (see PUT Bucket lifecycle), the response includes this header. It includes the <code>expiry-date</code> and <code>rule-id</code> key-value pairs that provide the object expiration information. The value of the <code>rule-id</code> is URL-encoded. ",
+                "key": "x-amz-fwd-header-x-amz-expiration",
+                "value": "<string>"
+              },
+              {
+                "description": "The date and time that the object was last modified.",
+                "key": "x-amz-fwd-header-Last-Modified",
+                "value": "<dateTime>"
+              },
+              {
+                "description": "Set to the number of metadata entries not returned in <code>x-amz-meta</code> headers. This can happen if you create metadata using an API like SOAP that supports more flexible metadata than the REST API. For example, using SOAP, you can create metadata whose values are not legal HTTP headers.",
+                "key": "x-amz-fwd-header-x-amz-missing-meta",
+                "value": "<integer>"
+              },
+              {
+                "description": "Indicates whether an object stored in Amazon S3 has Object Lock enabled. For more information about S3 Object Lock, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html\">Object Lock</a>.",
+                "key": "x-amz-fwd-header-x-amz-object-lock-mode",
+                "value": "GOVERNANCE"
+              },
+              {
+                "description": "Indicates whether an object stored in Amazon S3 has an active legal hold.",
+                "key": "x-amz-fwd-header-x-amz-object-lock-legal-hold",
+                "value": "false"
+              },
+              {
+                "description": "The date and time when Object Lock is configured to expire.",
+                "key": "x-amz-fwd-header-x-amz-object-lock-retain-until-date",
+                "value": "<dateTime>"
+              },
+              {
+                "description": "The count of parts this object has.",
+                "key": "x-amz-fwd-header-x-amz-mp-parts-count",
+                "value": "<integer>"
+              },
+              {
+                "description": "Indicates if request involves bucket that is either a source or destination in a Replication rule. For more information about S3 Replication, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html\">Replication</a>.",
+                "key": "x-amz-fwd-header-x-amz-replication-status",
+                "value": "COMPLETE"
+              },
+              {
+                "key": "x-amz-fwd-header-x-amz-request-charged",
+                "value": "requester"
+              },
+              {
+                "description": "Provides information about object restoration operation and expiration time of the restored object copy.",
+                "key": "x-amz-fwd-header-x-amz-restore",
+                "value": "<string>"
+              },
+              {
+                "description": " The server-side encryption algorithm used when storing requested object in Amazon S3 (for example, AES256, aws:kms).",
+                "key": "x-amz-fwd-header-x-amz-server-side-encryption",
+                "value": "AES256"
+              },
+              {
+                "description": "Encryption algorithm used if server-side encryption with a customer-provided encryption key was specified for object stored in Amazon S3.",
+                "key": "x-amz-fwd-header-x-amz-server-side-encryption-customer-algorithm",
+                "value": "<string>"
+              },
+              {
+                "description": " If present, specifies the ID of the Amazon Web Services Key Management Service (Amazon Web Services KMS) symmetric customer managed key that was used for stored in Amazon S3 object. ",
+                "key": "x-amz-fwd-header-x-amz-server-side-encryption-aws-kms-key-id",
+                "value": "<string>"
+              },
+              {
+                "description": " 128-bit MD5 digest of customer-provided encryption key used in Amazon S3 to encrypt data stored in S3. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html\">Protecting data using server-side encryption with customer-provided encryption keys (SSE-C)</a>.",
+                "key": "x-amz-fwd-header-x-amz-server-side-encryption-customer-key-MD5",
+                "value": "<string>"
+              },
+              {
+                "description": "<p>Provides storage class information of the object. Amazon S3 returns this header for all objects except for S3 Standard storage class objects.</p> <p>For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html\">Storage Classes</a>.</p>",
+                "key": "x-amz-fwd-header-x-amz-storage-class",
+                "value": "REDUCED_REDUNDANCY"
+              },
+              {
+                "description": "The number of tags, if any, on the object.",
+                "key": "x-amz-fwd-header-x-amz-tagging-count",
+                "value": "<integer>"
+              },
+              {
+                "description": "An ID used to reference a specific version of the object.",
+                "key": "x-amz-fwd-header-x-amz-version-id",
+                "value": "<string>"
+              },
+              {
+                "description": " Indicates whether the object stored in Amazon S3 uses an S3 bucket key for server-side encryption with Amazon Web Services KMS (SSE-KMS).",
+                "key": "x-amz-fwd-header-x-amz-server-side-encryption-bucket-key-enabled",
+                "value": "<boolean>"
+              },
+              {
+                "key": "x-amz-security-token",
+                "value": "<string>"
+              },
+              {
+                "key": "Content-Type",
+                "value": "text/xml"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<element>\n  <Body>(string)</Body>\n  <x-amz-meta->\n  </x-amz-meta->\n</element>",
+              "options": {
+                "raw": {
+                  "headerFamily": "xml",
+                  "language": "xml"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/WriteGetObjectResponse#x-amz-request-route&x-amz-request-token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "WriteGetObjectResponse"
+              ],
+              "hash": "x-amz-request-route&x-amz-request-token"
+            },
+            "description": "<p>Passes transformed objects to a <code>GetObject</code> operation when using Object Lambda access points. For information about Object Lambda access points, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/transforming-objects.html\">Transforming objects with Object Lambda access points</a> in the <i>Amazon S3 User Guide</i>.</p> <p>This operation supports metadata that can be returned by <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html\">GetObject</a>, in addition to <code>RequestRoute</code>, <code>RequestToken</code>, <code>StatusCode</code>, <code>ErrorCode</code>, and <code>ErrorMessage</code>. The <code>GetObject</code> response metadata is supported so that the <code>WriteGetObjectResponse</code> caller, typically an Lambda function, can provide the same metadata when it internally invokes <code>GetObject</code>. When <code>WriteGetObjectResponse</code> is called by a customer-owned Lambda function, the metadata returned to the end user <code>GetObject</code> call might differ from what Amazon S3 would normally return.</p> <p>You can include any number of metadata headers. When including a metadata header, it should be prefaced with <code>x-amz-meta</code>. For example, <code>x-amz-meta-my-custom-header: MyCustomValue</code>. The primary use case for this is to forward <code>GetObject</code> metadata.</p> <p>Amazon Web Services provides some prebuilt Lambda functions that you can use with S3 Object Lambda to detect and redact personally identifiable information (PII) and decompress S3 objects. These Lambda functions are available in the Amazon Web Services Serverless Application Repository, and can be selected through the Amazon Web Services Management Console when you create your Object Lambda access point.</p> <p>Example 1: PII Access Control - This Lambda function uses Amazon Comprehend, a natural language processing (NLP) service using machine learning to find insights and relationships in text. It automatically detects personally identifiable information (PII) such as names, addresses, dates, credit card numbers, and social security numbers from documents in your Amazon S3 bucket. </p> <p>Example 2: PII Redaction - This Lambda function uses Amazon Comprehend, a natural language processing (NLP) service using machine learning to find insights and relationships in text. It automatically redacts personally identifiable information (PII) such as names, addresses, dates, credit card numbers, and social security numbers from documents in your Amazon S3 bucket. </p> <p>Example 3: Decompression - The Lambda function S3ObjectLambdaDecompression, is equipped to decompress objects stored in S3 in one of six compressed file formats including bzip2, gzip, snappy, zlib, zstandard and ZIP. </p> <p>For information on how to view and use these functions, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/olap-examples.html\">Using Amazon Web Services built Lambda functions</a> in the <i>Amazon S3 User Guide</i>.</p>"
+          },
+          "response": [
+            {
+              "id": "97db1e27-d320-4735-b476-9a5485c74d33",
+              "name": "Success",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "description": "(Required) Route prefix to the HTTP URL generated.",
+                    "key": "x-amz-request-route",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "(Required) A single use encrypted token that maps <code>WriteGetObjectResponse</code> to the end user <code>GetObject</code> request.",
+                    "key": "x-amz-request-token",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "<p>The integer status code for an HTTP response of a corresponding <code>GetObject</code> request.</p> <p class=\"title\"> <b>Status Codes</b> </p> <ul> <li> <p> <code>200 - OK</code> </p> </li> <li> <p> <code>206 - Partial Content</code> </p> </li> <li> <p> <code>304 - Not Modified</code> </p> </li> <li> <p> <code>400 - Bad Request</code> </p> </li> <li> <p> <code>401 - Unauthorized</code> </p> </li> <li> <p> <code>403 - Forbidden</code> </p> </li> <li> <p> <code>404 - Not Found</code> </p> </li> <li> <p> <code>405 - Method Not Allowed</code> </p> </li> <li> <p> <code>409 - Conflict</code> </p> </li> <li> <p> <code>411 - Length Required</code> </p> </li> <li> <p> <code>412 - Precondition Failed</code> </p> </li> <li> <p> <code>416 - Range Not Satisfiable</code> </p> </li> <li> <p> <code>500 - Internal Server Error</code> </p> </li> <li> <p> <code>503 - Service Unavailable</code> </p> </li> </ul>",
+                    "key": "x-amz-fwd-status",
+                    "value": "<integer>"
+                  },
+                  {
+                    "description": "A string that uniquely identifies an error condition. Returned in the &lt;Code&gt; tag of the error XML response for a corresponding <code>GetObject</code> call. Cannot be used with a successful <code>StatusCode</code> header or when the transformed object is provided in the body. All error codes from S3 are sentence-cased. The regular expression (regex) value is <code>\"^[A-Z][a-zA-Z]+$\"</code>.",
+                    "key": "x-amz-fwd-error-code",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "Contains a generic description of the error condition. Returned in the &lt;Message&gt; tag of the error XML response for a corresponding <code>GetObject</code> call. Cannot be used with a successful <code>StatusCode</code> header or when the transformed object is provided in body.",
+                    "key": "x-amz-fwd-error-message",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "Indicates that a range of bytes was specified.",
+                    "key": "x-amz-fwd-header-accept-ranges",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "Specifies caching behavior along the request/reply chain.",
+                    "key": "x-amz-fwd-header-Cache-Control",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "Specifies presentational information for the object.",
+                    "key": "x-amz-fwd-header-Content-Disposition",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "Specifies what content encodings have been applied to the object and thus what decoding mechanisms must be applied to obtain the media-type referenced by the Content-Type header field.",
+                    "key": "x-amz-fwd-header-Content-Encoding",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "The language the content is in.",
+                    "key": "x-amz-fwd-header-Content-Language",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "The size of the content body in bytes.",
+                    "key": "Content-Length",
+                    "value": "<integer>"
+                  },
+                  {
+                    "description": "The portion of the object returned in the response.",
+                    "key": "x-amz-fwd-header-Content-Range",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "A standard MIME type describing the format of the object data.",
+                    "key": "x-amz-fwd-header-Content-Type",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 32-bit CRC32 checksum of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p> <p/>",
+                    "key": "x-amz-fwd-header-x-amz-checksum-crc32",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 32-bit CRC32C checksum of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p>",
+                    "key": "x-amz-fwd-header-x-amz-checksum-crc32c",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 160-bit SHA-1 digest of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p>",
+                    "key": "x-amz-fwd-header-x-amz-checksum-sha1",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "<p>This header can be used as a data integrity check to verify that the data received is the same data that was originally sent. This specifies the base64-encoded, 256-bit SHA-256 digest of the object returned by the Object Lambda function. This may not match the checksum for the object stored in Amazon S3. Amazon S3 will perform validation of the checksum values only when the original <code>GetObject</code> request required checksum validation. For more information about checksums, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html\">Checking object integrity</a> in the <i>Amazon S3 User Guide</i>.</p> <p>Only one checksum header can be specified at a time. If you supply multiple checksum headers, this request will fail.</p>",
+                    "key": "x-amz-fwd-header-x-amz-checksum-sha256",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "Specifies whether an object stored in Amazon S3 is (<code>true</code>) or is not (<code>false</code>) a delete marker. ",
+                    "key": "x-amz-fwd-header-x-amz-delete-marker",
+                    "value": "<boolean>"
+                  },
+                  {
+                    "description": "An opaque identifier assigned by a web server to a specific version of a resource found at a URL. ",
+                    "key": "x-amz-fwd-header-ETag",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "The date and time at which the object is no longer cacheable.",
+                    "key": "x-amz-fwd-header-Expires",
+                    "value": "<dateTime>"
+                  },
+                  {
+                    "description": "If the object expiration is configured (see PUT Bucket lifecycle), the response includes this header. It includes the <code>expiry-date</code> and <code>rule-id</code> key-value pairs that provide the object expiration information. The value of the <code>rule-id</code> is URL-encoded. ",
+                    "key": "x-amz-fwd-header-x-amz-expiration",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "The date and time that the object was last modified.",
+                    "key": "x-amz-fwd-header-Last-Modified",
+                    "value": "<dateTime>"
+                  },
+                  {
+                    "description": "Set to the number of metadata entries not returned in <code>x-amz-meta</code> headers. This can happen if you create metadata using an API like SOAP that supports more flexible metadata than the REST API. For example, using SOAP, you can create metadata whose values are not legal HTTP headers.",
+                    "key": "x-amz-fwd-header-x-amz-missing-meta",
+                    "value": "<integer>"
+                  },
+                  {
+                    "description": "Indicates whether an object stored in Amazon S3 has Object Lock enabled. For more information about S3 Object Lock, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html\">Object Lock</a>.",
+                    "key": "x-amz-fwd-header-x-amz-object-lock-mode",
+                    "value": "GOVERNANCE"
+                  },
+                  {
+                    "description": "Indicates whether an object stored in Amazon S3 has an active legal hold.",
+                    "key": "x-amz-fwd-header-x-amz-object-lock-legal-hold",
+                    "value": "false"
+                  },
+                  {
+                    "description": "The date and time when Object Lock is configured to expire.",
+                    "key": "x-amz-fwd-header-x-amz-object-lock-retain-until-date",
+                    "value": "<dateTime>"
+                  },
+                  {
+                    "description": "The count of parts this object has.",
+                    "key": "x-amz-fwd-header-x-amz-mp-parts-count",
+                    "value": "<integer>"
+                  },
+                  {
+                    "description": "Indicates if request involves bucket that is either a source or destination in a Replication rule. For more information about S3 Replication, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html\">Replication</a>.",
+                    "key": "x-amz-fwd-header-x-amz-replication-status",
+                    "value": "COMPLETE"
+                  },
+                  {
+                    "key": "x-amz-fwd-header-x-amz-request-charged",
+                    "value": "requester"
+                  },
+                  {
+                    "description": "Provides information about object restoration operation and expiration time of the restored object copy.",
+                    "key": "x-amz-fwd-header-x-amz-restore",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": " The server-side encryption algorithm used when storing requested object in Amazon S3 (for example, AES256, aws:kms).",
+                    "key": "x-amz-fwd-header-x-amz-server-side-encryption",
+                    "value": "AES256"
+                  },
+                  {
+                    "description": "Encryption algorithm used if server-side encryption with a customer-provided encryption key was specified for object stored in Amazon S3.",
+                    "key": "x-amz-fwd-header-x-amz-server-side-encryption-customer-algorithm",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": " If present, specifies the ID of the Amazon Web Services Key Management Service (Amazon Web Services KMS) symmetric customer managed key that was used for stored in Amazon S3 object. ",
+                    "key": "x-amz-fwd-header-x-amz-server-side-encryption-aws-kms-key-id",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": " 128-bit MD5 digest of customer-provided encryption key used in Amazon S3 to encrypt data stored in S3. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html\">Protecting data using server-side encryption with customer-provided encryption keys (SSE-C)</a>.",
+                    "key": "x-amz-fwd-header-x-amz-server-side-encryption-customer-key-MD5",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": "<p>Provides storage class information of the object. Amazon S3 returns this header for all objects except for S3 Standard storage class objects.</p> <p>For more information, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html\">Storage Classes</a>.</p>",
+                    "key": "x-amz-fwd-header-x-amz-storage-class",
+                    "value": "REDUCED_REDUNDANCY"
+                  },
+                  {
+                    "description": "The number of tags, if any, on the object.",
+                    "key": "x-amz-fwd-header-x-amz-tagging-count",
+                    "value": "<integer>"
+                  },
+                  {
+                    "description": "An ID used to reference a specific version of the object.",
+                    "key": "x-amz-fwd-header-x-amz-version-id",
+                    "value": "<string>"
+                  },
+                  {
+                    "description": " Indicates whether the object stored in Amazon S3 uses an S3 bucket key for server-side encryption with Amazon Web Services KMS (SSE-KMS).",
+                    "key": "x-amz-fwd-header-x-amz-server-side-encryption-bucket-key-enabled",
+                    "value": "<boolean>"
+                  },
+                  {
+                    "key": "x-amz-security-token",
+                    "value": "<string>"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "text/xml"
+                  },
+                  {
+                    "description": "Added as a part of security scheme: apikey",
+                    "key": "Authorization",
+                    "value": "<API Key>"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<element>\n  <Body>(string)</Body>\n  <x-amz-meta->\n  </x-amz-meta->\n</element>",
+                  "options": {
+                    "raw": {
+                      "headerFamily": "xml",
+                      "language": "xml"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/WriteGetObjectResponse#x-amz-request-route&x-amz-request-token",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "WriteGetObjectResponse"
+                  ],
+                  "hash": "x-amz-request-route&x-amz-request-token"
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [],
+              "cookie": [],
+              "responseTime": null,
+              "body": null,
+              "createdAt": "2026-07-28T10:52:59.000Z",
+              "updatedAt": "2026-07-28T10:52:59.000Z",
+              "uid": "35240-97db1e27-d320-4735-b476-9a5485c74d33"
+            }
+          ],
+          "createdAt": "2026-07-28T10:52:59.000Z",
+          "updatedAt": "2026-07-28T10:52:59.000Z",
+          "uid": "35240-ac14dc9e-d709-44a3-8834-458fe844f49e"
+        }
+      ],
+      "id": "b2179f79-9dfa-48db-ab27-f4e03dbae370",
+      "createdAt": "2026-07-28T10:52:59.000Z",
+      "updatedAt": "2026-07-28T10:52:59.000Z",
+      "uid": "35240-b2179f79-9dfa-48db-ab27-f4e03dbae370"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "Authorization",
+        "type": "string"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}",
+        "type": "string"
+      },
+      {
+        "key": "in",
+        "value": "header",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "region",
+      "value": "us-east-1"
+    },
+    {
+      "key": "dash-or-dot",
+      "value": "."
+    },
+    {
+      "key": "baseUrl",
+      "value": "http://s3{{dash-or-dot}}{{region}}.amazonaws.com"
+    }
+  ]
+}

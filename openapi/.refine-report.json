@@ -1,0 +1,16 @@
+{
+  "provider": "aws-s3",
+  "sources": [
+    "aws-s3-amazon-simple-storage-service-api-openapi.yml",
+    "aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api-openapi.yml"
+  ],
+  "outputs": [
+    "aws-s3-amazon-simple-storage-service-api-openapi.yml",
+    "aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
