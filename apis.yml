@@ -47,8 +47,6 @@ apis:
     url: https://aws.amazon.com/s3/getting-started/
   - type: SDKs
     url: https://aws.amazon.com/tools/
-  - type: X-NaftikoCapability
-    url: capabilities/aws-s3.yaml
 - aid: aws-s3:aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
   name: Amazon S3 API WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
   description: >-
@@ -70,8 +68,6 @@ apis:
     url: https://aws.amazon.com/s3/getting-started/
   - type: SDKs
     url: https://aws.amazon.com/tools/
-  - type: X-NaftikoCapability
-    url: capabilities/aws-s3.yaml
 common:
 - type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-s3-api/overview
