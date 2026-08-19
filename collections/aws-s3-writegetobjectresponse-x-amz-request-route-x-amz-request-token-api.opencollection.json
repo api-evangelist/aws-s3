@@ -1,0 +1,195 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Simple Storage Service WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "WriteGetObjectResponse#x Amz Request Route&x Amz Request Token",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Amazon S3 - WriteGetObjectResponse",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "http://s3{dash-or-dot}{region}.amazonaws.com/WriteGetObjectResponse#x-amz-request-route&x-amz-request-token",
+            "headers": [
+              {
+                "name": "x-amz-security-token",
+                "value": ""
+              },
+              {
+                "name": "x-amz-request-route",
+                "value": ""
+              },
+              {
+                "name": "x-amz-request-token",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-status",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-error-code",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-error-message",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-accept-ranges",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Cache-Control",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Content-Disposition",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Content-Encoding",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Content-Language",
+                "value": ""
+              },
+              {
+                "name": "Content-Length",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Content-Range",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Content-Type",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-checksum-crc32",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-checksum-crc32c",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-checksum-sha1",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-checksum-sha256",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-delete-marker",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-ETag",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Expires",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-expiration",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-Last-Modified",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-missing-meta",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-object-lock-mode",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-object-lock-legal-hold",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-object-lock-retain-until-date",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-mp-parts-count",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-replication-status",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-request-charged",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-restore",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-server-side-encryption",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-server-side-encryption-customer-algorithm",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-server-side-encryption-aws-kms-key-id",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-server-side-encryption-customer-key-MD5",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-storage-class",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-tagging-count",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-version-id",
+                "value": ""
+              },
+              {
+                "name": "x-amz-fwd-header-x-amz-server-side-encryption-bucket-key-enabled",
+                "value": ""
+              }
+            ]
+          },
+          "docs": "<p>Passes transformed objects to a <code>GetObject</code> operation when using Object Lambda access points. For information about Object Lambda access points, see <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/transforming-objects.html\">Transforming objects with Object Lambda access points</a> in the <i>Amazon S3 User Guide</i>.</p> <p>This operation supports metadata that can be returned by <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html\">GetObject</a"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
