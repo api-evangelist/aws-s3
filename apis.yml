@@ -25,7 +25,7 @@ tags:
 url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-05-19'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: aws-s3:aws-s3-amazon-simple-storage-service-api
   name: Amazon S3 API Amazon Simple Storage Service API
