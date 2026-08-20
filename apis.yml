@@ -54,7 +54,8 @@ apis:
     for writegetobjectresponse#x amz request route&x amz request token.
   humanURL: https://aws.amazon.com/s3/
   baseURL: https://s3.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - WriteGetObjectResponse#x Amz Request Route&x Amz Request Token
   properties:
   - type: OpenAPI
