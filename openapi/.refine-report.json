@@ -11,6 +11,10 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
+  "notes": [
+    "aws-s3-amazon-simple-storage-service-api-openapi.yml: upgraded openapi 3.0.0 -> OpenAPI 3.2.0",
+    "aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api-openapi.yml: upgraded openapi 3.0.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
   "skipped": []
 }
