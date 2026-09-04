@@ -1,28 +1,31 @@
-# Kin Score artifact — aws-s3 — 2026-08-04T083143
+# Kin Score artifact — aws-s3 — 2026-09-03T161828
 # The API Evangelist rating (https://github.com/api-evangelist/kin-score). Generated; do not edit.
 ---
 kin_score:
   slug: aws-s3
-  schema_version: 0.9
-  scored_at: '2026-08-04'
-  run_ts: 2026-08-04T083143
-  composite: 60.6
-  band: strong
+  schema_version: 0.18.1
+  scored_at: '2026-09-03'
+  run_ts: 2026-09-03T161828
+  composite: 48.7
+  band: developing
   facets:
     discoverability: 50.0
-    contract_quality: 63.6
-    governance: 68.8
-    operational_transparency: 63.2
-    developer_ergonomics: 37.0
-    commercial_clarity: 78.9
+    contract_quality: 56.8
+    governance: 28.8
+    operational_transparency: 23.7
+    developer_ergonomics: 59.5
+    commercial_clarity: 55.3
+    contract_governance: 28.8
+    access_clarity: 55.3
   agent_readiness:
-    score: 41.0
+    score: 32.4
     band: agent-ready
     dimensions:
       spec_presence: true
       agentic_access: derived
+      reversibility_documented: verified
       mcp_server: false
-      auth_clarity: true
+      auth_clarity: bearer
       idempotency: false
       error_semantics: verified
       openapi_examples: partial
@@ -33,6 +36,10 @@ kin_score:
       consent_identity: false
       agent_card: false
       dry_run_mode: false
+      delegated_identity: false
+      protected_resource_metadata: false
+      dynamic_client_registration: false
+      agentic_commerce: false
   provenance:
     agentic_access: derived
     contracts:
